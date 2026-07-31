@@ -1,0 +1,158 @@
+{
+ "generated_at": "2026-07-31T22:58:51+08:00",
+ "today": "2026-07-31",
+ "health": {
+  "ok": true,
+  "complete_count": 1162,
+  "ongoing_count": 807,
+  "notice_found": true,
+  "warnings": [],
+  "checked_at": "2026-07-31T22:58:51+08:00"
+ },
+ "upcoming": {
+  "notice_no": 3727,
+  "notice_title": "【重要通知】8月最新完結名單",
+  "posted_date": "2026-07-22",
+  "switch_date": "2026-08-21",
+  "titles": [
+   "深夜裡的訪客",
+   "戀愛警報",
+   "遠離渣男守則",
+   "反被馴養的瘋狗囚禁",
+   "靠神級天賦無限成長",
+   "無殼蝸牛的悲歌",
+   "健身地下城",
+   "首爾末日危機",
+   "電子遊戲守護隊",
+   "宅男打籃球",
+   "黑暗侵襲",
+   "海風盤旋時"
+  ],
+  "days_left": 21,
+  "items": [
+   {
+    "title": "深夜裡的訪客",
+    "no": "7389",
+    "genre": "大人系",
+    "likes": "47,472",
+    "href": "https://www.webtoons.com/zh-hant/romance-m/the-visitor-of-the-night/list?title_no=7389",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/7389.jpg"
+   },
+   {
+    "title": "戀愛警報",
+    "no": "7902",
+    "genre": "大人系",
+    "likes": "25,686",
+    "href": "https://www.webtoons.com/zh-hant/romance-m/beware-of-love/list?title_no=7902",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/7902.png"
+   },
+   {
+    "title": "遠離渣男守則",
+    "no": "7897",
+    "genre": "愛情",
+    "likes": "102,866",
+    "href": "https://www.webtoons.com/zh-hant/romance/rules-for-dating-trash/list?title_no=7897",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/7897.jpg"
+   },
+   {
+    "title": "反被馴養的瘋狗囚禁",
+    "no": "7388",
+    "genre": "歐式宮廷",
+    "likes": "16,494",
+    "href": "https://www.webtoons.com/zh-hant/western-palace/locked-up-by-my-mad-dog/list?title_no=7388",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/7388.jpg"
+   },
+   {
+    "title": "靠神級天賦無限成長",
+    "no": "5234",
+    "genre": "奇幻冒險",
+    "likes": "164,192",
+    "href": "https://www.webtoons.com/zh-hant/fantasy/boundless-necromancer/list?title_no=5234",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/5234.jpg"
+   },
+   {
+    "title": "無殼蝸牛的悲歌",
+    "no": "8524",
+    "genre": "驚悚",
+    "likes": "11,644",
+    "href": "https://www.webtoons.com/zh-hant/thriller/deadly-to-the-landless/list?title_no=8524",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/8524.jpg"
+   },
+   {
+    "title": "健身地下城",
+    "no": "5150",
+    "genre": "奇幻冒險",
+    "likes": "54,078",
+    "href": "https://www.webtoons.com/zh-hant/fantasy/health-dungeon/list?title_no=5150",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/5150.png"
+   },
+   {
+    "title": "首爾末日危機",
+    "no": "4283",
+    "genre": "驚悚",
+    "likes": "250,658",
+    "href": "https://www.webtoons.com/zh-hant/thriller/shouermoriweiji/list?title_no=4283",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/4283.jpg"
+   },
+   {
+    "title": "電子遊戲守護隊",
+    "no": "3090",
+    "genre": "奇幻冒險",
+    "likes": "51,022",
+    "href": "https://www.webtoons.com/zh-hant/fantasy/guardiansofthevideogame/list?title_no=3090",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/3090.png"
+   },
+   {
+    "title": "宅男打籃球",
+    "no": "450",
+    "genre": "台灣原創作品",
+    "likes": "239萬",
+    "href": "https://www.webtoons.com/zh-hant/local/zhainandalanqiu/list?title_no=450",
+    "weekday": "sunday",
+    "status": "ongoing",
+    "thumb": "thumbs/450.jpg"
+   },
+   {
+    "title": "黑暗侵襲",
+    "no": "7094",
+    "genre": "奇幻冒險",
+    "likes": "24,515",
+    "href": "https://www.webtoons.com/zh-hant/fantasy/darkinvesion/list?title_no=7094",
+    "weekday": "sunday",
+    "status": "ongoing",
+    "thumb": "thumbs/7094.png"
+   },
+   {
+    "title": "海風盤旋時",
+    "no": "5301",
+    "genre": "愛情",
+    "likes": "14,253",
+    "href": "https://www.webtoons.com/zh-hant/romance/sea-breeze-swirling/list?title_no=5301",
+    "weekday": "thursday",
+    "status": "ongoing",
+    "thumb": "thumbs/5301.png"
+   }
+  ]
+ },
+ "newly_completed": [],
+ "completed_total": 1162,
+ "ongoing_total": 807
+}

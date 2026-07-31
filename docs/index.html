@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A0C0E">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="完結雷達">
+<meta name="description" content="每天追蹤 LINE WEBTOON 哪些作品快完結、剛完結、即將轉成要代幣">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<title>完結雷達</title>
+<style>
+  /* ─────────────────────────────────────────────────────────────
+     以下樣式原封取自設計稿 mockup/style-a-dark.html,未更動。
+     ───────────────────────────────────────────────────────────── */
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  :root{
+    --bg:#0A0C0E; --card:#15181C; --card2:#1C2026;
+    --text:#F2F4F6; --dim:#868E97; --dim2:#5C646D; --line:#23282E;
+    --green:#00DC64; --amber:#FFB020; --red:#FF5A5F;
+  }
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+    background:#191b1f; display:flex; align-items:center; justify-content:center;
+    min-height:100vh; padding:32px 16px; gap:24px; flex-wrap:wrap;
+  }
+  .frame{
+    width:390px; height:844px; background:var(--bg); border-radius:44px;
+    overflow:hidden; position:relative; display:flex; flex-direction:column;
+    box-shadow:0 0 0 10px #0e0f12, 0 0 0 12px #2c3037, 0 30px 70px rgba(0,0,0,.6);
+    color:var(--text);
+  }
+  .statusbar{
+    height:52px; flex:none; display:flex; align-items:flex-end; justify-content:space-between;
+    padding:0 26px 6px; font-size:14px; font-weight:600; letter-spacing:.3px;
+  }
+  .statusbar .right{display:flex;align-items:center;gap:5px}
+  .notch{position:absolute;top:8px;left:50%;transform:translateX(-50%);width:112px;height:30px;background:#000;border-radius:16px;z-index:5}
+
+  header{flex:none;padding:6px 20px 14px;display:flex;align-items:flex-end;justify-content:space-between}
+  header h1{font-size:23px;font-weight:800;letter-spacing:-.4px;display:flex;align-items:center;gap:7px}
+  header h1 .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
+  header .sync{font-size:11px;color:var(--dim2);text-align:right;line-height:1.5}
+
+  main{flex:1;overflow-y:auto;padding:0 16px 22px;scrollbar-width:none}
+  main::-webkit-scrollbar{display:none}
+
+  /* 大倒數 */
+  .hero{
+    background:linear-gradient(158deg,#12321F 0%,#15181C 62%);
+    border:1px solid #1F4430; border-radius:22px; padding:20px 20px 18px; margin-bottom:20px;
+    position:relative; overflow:hidden;
+  }
+  .hero::after{content:"";position:absolute;right:-46px;top:-46px;width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,rgba(0,220,100,.16),transparent 68%)}
+  .hero .lab{font-size:11px;color:var(--green);font-weight:700;letter-spacing:1.6px;margin-bottom:9px}
+  .hero .num{display:flex;align-items:baseline;gap:8px}
+  .hero .num b{font-size:64px;font-weight:850;line-height:.9;letter-spacing:-3px}
+  .hero .num span{font-size:16px;font-weight:700;color:#CFE9DA}
+  .hero .sub{margin-top:11px;font-size:13px;color:#93A99C;line-height:1.6}
+  .hero .sub em{font-style:normal;color:var(--text);font-weight:700}
+  .bar{margin-top:14px;height:5px;border-radius:3px;background:#1E2A23;overflow:hidden}
+  .bar i{display:block;height:100%;width:32%;border-radius:3px;background:linear-gradient(90deg,var(--green),#7BE8AE)}
+  .barcap{display:flex;justify-content:space-between;margin-top:7px;font-size:10.5px;color:var(--dim2)}
+
+  h2{font-size:13.5px;font-weight:750;margin:22px 2px 11px;display:flex;align-items:center;gap:8px}
+  h2 .n{font-size:11px;font-weight:700;color:#0A0C0E;background:var(--dim);border-radius:20px;padding:2px 8px}
+  h2.warn .n{background:var(--amber)}
+  h2.ok .n{background:var(--green)}
+
+  .row{display:flex;gap:12px;align-items:center;padding:11px;background:var(--card);border-radius:16px;margin-bottom:9px;border:1px solid transparent}
+  .row.hot{border-color:#4A3312;background:linear-gradient(120deg,#221A0D,#15181C 58%)}
+  .thumb{width:50px;height:64px;border-radius:11px;flex:none;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:800;color:rgba(255,255,255,.9)}
+  .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .meta{flex:1;min-width:0}
+  .meta .t{font-size:14.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:-.2px}
+  .meta .g{font-size:11.5px;color:var(--dim);margin-top:4px;display:flex;align-items:center;gap:6px}
+  .meta .g s{text-decoration:none;color:var(--dim2)}
+  .tag{font-size:10px;font-weight:700;padding:2px 7px;border-radius:6px;flex:none}
+  .tag.amber{background:rgba(255,176,32,.16);color:var(--amber)}
+  .tag.green{background:rgba(0,220,100,.14);color:var(--green)}
+  .days{flex:none;text-align:right}
+  .days b{font-size:19px;font-weight:800;letter-spacing:-.5px}
+  .days span{display:block;font-size:10px;color:var(--dim2);margin-top:1px}
+
+  .empty{background:var(--card);border:1px dashed var(--line);border-radius:16px;padding:22px;text-align:center}
+  .empty p{font-size:13px;color:var(--dim);line-height:1.7}
+  .empty p b{color:var(--text)}
+
+  .vault{display:flex;align-items:center;gap:13px;background:var(--card);border-radius:16px;padding:15px 16px}
+  .vault .ico{width:38px;height:38px;border-radius:11px;background:var(--card2);display:flex;align-items:center;justify-content:center;flex:none}
+  .vault .vt{flex:1}
+  .vault .vt b{display:block;font-size:14px;font-weight:700}
+  .vault .vt span{font-size:11.5px;color:var(--dim)}
+
+  .health{margin-top:18px;display:flex;gap:8px;align-items:flex-start;padding:11px 13px;background:rgba(0,220,100,.05);border:1px solid rgba(0,220,100,.18);border-radius:13px}
+  .health p{font-size:11px;color:#7FA891;line-height:1.65}
+  .health p b{color:var(--green)}
+
+  nav{
+    flex:none;height:78px;background:rgba(13,15,18,.94);backdrop-filter:blur(20px);
+    border-top:1px solid var(--line); display:flex; padding:9px 6px 0;
+  }
+  nav a{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;text-decoration:none;color:var(--dim2);font-size:10.5px;font-weight:600;position:relative}
+  nav a.on{color:var(--green)}
+  nav a .bdg{position:absolute;top:-2px;right:24px;background:var(--red);color:#fff;font-size:9px;font-weight:700;min-width:16px;height:16px;border-radius:9px;display:flex;align-items:center;justify-content:center;padding:0 4px}
+  .homebar{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:rgba(255,255,255,.35)}
+
+  @media(max-width:820px){ body{padding:0} .frame{width:100vw;height:100vh;border-radius:0;box-shadow:none} .notch{display:none} }
+
+  /* ─────────────────────────────────────────────────────────────
+     以下為設計稿之外新增:動態資料、分頁切換、載入/錯誤狀態。
+     沒有更動上面任何一條既有樣式。
+     ───────────────────────────────────────────────────────────── */
+
+  /* 裝到主畫面後,系統自己有狀態列,就不再畫假的 */
+  @media (display-mode: standalone){ .statusbar{display:none} .notch{display:none} .homebar{display:none} }
+
+  header .sync{background:none;border:0;font-family:inherit;cursor:pointer;padding:4px 0 0 10px}
+  header .sync:active{opacity:.55}
+  header h1 .dot.stale{background:var(--amber);box-shadow:0 0 10px var(--amber)}
+  header h1 .dot.bad{background:var(--red);box-shadow:0 0 10px var(--red)}
+
+  .page{display:none} .page.on{display:block}
+
+  .tag.gray{background:rgba(134,142,151,.16);color:var(--dim)}
+  .row.dim .thumb{opacity:.45}
+  /* 卡片變成可點的連結後,要擋掉瀏覽器預設的藍字底線,維持設計稿的純色文字 */
+  a.row,a.vault{color:inherit;text-decoration:none}
+  a.row:active,a.vault:active{opacity:.7}
+
+  .loading{padding:60px 0;text-align:center;color:var(--dim2);font-size:13px}
+  .errbox{background:rgba(255,90,95,.07);border:1px solid rgba(255,90,95,.28);border-radius:16px;padding:18px;margin-top:8px}
+  .errbox b{display:block;font-size:14px;color:var(--red);margin-bottom:7px}
+  .errbox p{font-size:12px;color:var(--dim);line-height:1.75}
+
+  /* 健康度壞掉時轉紅 —— 抓到 0 筆絕不安靜顯示空白 */
+  .health.bad{background:rgba(255,90,95,.06);border-color:rgba(255,90,95,.3)}
+  .health.bad p{color:#C98A8D}
+  .health.bad p b{color:var(--red)}
+  .health ul{margin:6px 0 0 14px;padding:0}
+  .health li{font-size:10.5px;line-height:1.7}
+
+  .search{width:100%;background:var(--card);border:1px solid var(--line);border-radius:13px;
+    padding:11px 13px;color:var(--text);font-size:14px;font-family:inherit;margin-bottom:12px}
+  .search::placeholder{color:var(--dim2)}
+  .search:focus{outline:none;border-color:#2E4A3A}
+
+  .librow{display:flex;align-items:center;gap:11px;padding:10px 12px;background:var(--card);
+    border-radius:13px;margin-bottom:7px;text-decoration:none;color:inherit}
+  .librow .lb{flex:1;min-width:0}
+  .librow .lb b{display:block;font-size:13.5px;font-weight:650;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .librow .lb span{font-size:10.5px;color:var(--dim2)}
+  .librow .ln{font-size:10px;color:var(--dim2);flex:none}
+  .libnote{text-align:center;font-size:11.5px;color:var(--dim2);padding:14px 0 4px;line-height:1.7}
+
+  .setrow{display:flex;justify-content:space-between;align-items:center;gap:12px;
+    padding:13px 14px;background:var(--card);border-radius:13px;margin-bottom:8px}
+  .setrow .sk{font-size:12.5px;color:var(--dim)}
+  .setrow .sv{font-size:13px;font-weight:700;text-align:right}
+  .setnote{font-size:11px;color:var(--dim2);line-height:1.8;padding:6px 4px 0}
+  .setnote a{color:var(--green);text-decoration:none}
+</style>
+</head>
+<body>
+
+<div class="frame">
+  <div class="notch"></div>
+  <div class="statusbar">
+    <span id="clock">9:41</span>
+    <span class="right">
+      <svg width="17" height="11" viewBox="0 0 17 11" fill="currentColor"><rect x="0" y="7" width="3" height="4" rx="1"/><rect x="4.5" y="5" width="3" height="6" rx="1"/><rect x="9" y="2.5" width="3" height="8.5" rx="1"/><rect x="13.5" y="0" width="3" height="11" rx="1"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x=".5" y=".5" width="20" height="11" rx="3" stroke="currentColor" opacity=".45"/><rect x="2" y="2" width="16" height="8" rx="1.8" fill="currentColor"/><path d="M22.5 4v4c1-.4 1.5-1.1 1.5-2s-.5-1.6-1.5-2z" fill="currentColor" opacity=".45"/></svg>
+    </span>
+  </div>
+
+  <header>
+    <h1><span class="dot" id="dot"></span>完結雷達</h1>
+    <button class="sync" id="sync" type="button">載入中…</button>
+  </header>
+
+  <main id="main">
+    <div class="loading">讀取今天的資料…</div>
+  </main>
+
+  <nav>
+    <a href="#" class="on" data-tab="countdown">
+      <span class="bdg" id="bdg" hidden>0</span>
+      <svg width="21" height="21" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="M11 6.5V11l3 2" stroke-linecap="round"/></svg>
+      倒數
+    </a>
+    <a href="#" data-tab="new">
+      <svg width="21" height="21" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 11l4.5 4.5L18 6"/></svg>
+      剛完結
+    </a>
+    <a href="#" data-tab="library">
+      <svg width="21" height="21" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.2" y="3.2" width="6.6" height="6.6" rx="1.6"/><rect x="12.2" y="3.2" width="6.6" height="6.6" rx="1.6"/><rect x="3.2" y="12.2" width="6.6" height="6.6" rx="1.6"/><rect x="12.2" y="12.2" width="6.6" height="6.6" rx="1.6"/></svg>
+      全庫
+    </a>
+    <a href="#" data-tab="settings">
+      <svg width="21" height="21" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="2.9"/><path d="M17.4 13.4a1.5 1.5 0 00.3 1.7l.1.1a1.8 1.8 0 11-2.6 2.6l-.1-.1a1.5 1.5 0 00-1.7-.3 1.5 1.5 0 00-.9 1.4v.2a1.8 1.8 0 11-3.6 0v-.1a1.5 1.5 0 00-1-1.4 1.5 1.5 0 00-1.7.3l-.1.1a1.8 1.8 0 11-2.6-2.6l.1-.1a1.5 1.5 0 00.3-1.7 1.5 1.5 0 00-1.4-.9h-.2a1.8 1.8 0 110-3.6h.1a1.5 1.5 0 001.4-1 1.5 1.5 0 00-.3-1.7l-.1-.1a1.8 1.8 0 112.6-2.6l.1.1a1.5 1.5 0 001.7.3h.1a1.5 1.5 0 00.9-1.4v-.2a1.8 1.8 0 113.6 0v.1a1.5 1.5 0 00.9 1.4 1.5 1.5 0 001.7-.3l.1-.1a1.8 1.8 0 112.6 2.6l-.1.1a1.5 1.5 0 00-.3 1.7v.1a1.5 1.5 0 001.4.9h.2a1.8 1.8 0 110 3.6h-.1a1.5 1.5 0 00-1.4.9z"/></svg>
+      設定
+    </a>
+  </nav>
+  <div class="homebar"></div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c =>
+  ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
+
+let DATA = null, LIB = null, TAB = "countdown";
+
+/* 沒有封面時的備援:用作品首字 + 一個由標題決定的固定色,不會每次刷新都變色 */
+function fallbackThumb(title) {
+  let h = 0;
+  for (const ch of String(title)) h = (h * 31 + ch.charCodeAt(0)) % 360;
+  return { hue: h, ch: String(title).trim().charAt(0) || "?" };
+}
+function thumbHTML(item) {
+  const f = fallbackThumb(item.title);
+  const bg = `background:linear-gradient(140deg,hsl(${f.hue} 46% 42%),hsl(${(f.hue+28)%360} 52% 20%))`;
+  const img = item.thumb
+    ? `<img src="${esc(item.thumb)}" alt="" loading="lazy" onerror="this.remove()">` : "";
+  return `<div class="thumb" style="${bg}">${esc(f.ch)}${img}</div>`;
+}
+
+function rowHTML(item, daysLeft) {
+  const st = item.status;
+  const tag = st === "ongoing" ? '<span class="tag amber">連載中</span>'
+            : st === "completed_free" ? '<span class="tag green">可免費補</span>'
+            : '<span class="tag gray">站上沒找到</span>';
+  const sub = st === "ongoing"
+    ? `${esc(item.genre || "")}${item.weekday ? " · " + weekdayZh(item.weekday) : ""}`
+    : `${esc(item.genre || "")}${item.likes ? " · " + esc(item.likes) + " 讚" : ""}`;
+  const inner = `
+    ${thumbHTML(item)}
+    <div class="meta">
+      <div class="t">${esc(item.title)}</div>
+      <div class="g">${tag}<s>${sub}</s></div>
+    </div>
+    ${daysLeft != null ? `<div class="days"><b>${daysLeft}</b><span>天</span></div>` : ""}`;
+  const cls = `row${st === "ongoing" ? " hot" : ""}${st === "unknown" ? " dim" : ""}`;
+  return item.href
+    ? `<a class="${cls}" href="${esc(item.href)}" target="_blank" rel="noopener">${inner}</a>`
+    : `<div class="${cls}">${inner}</div>`;
+}
+
+function weekdayZh(w) {
+  return { monday:"週一", tuesday:"週二", wednesday:"週三", thursday:"週四",
+           friday:"週五", saturday:"週六", sunday:"週日" }[w] || w;
+}
+
+function healthHTML() {
+  const h = DATA.health, bad = !h.ok;
+  const icon = `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="${bad ? "#FF5A5F" : "#00DC64"}" stroke-width="1.6" style="flex:none;margin-top:1px"><circle cx="8" cy="8" r="6.4"/><path d="M8 5v3.6M8 11h.01" stroke-linecap="round"/></svg>`;
+  if (bad) {
+    return `<div class="health bad">${icon}<p><b>抓取有問題,這頁的資料可能不完整</b>
+      <ul>${h.warnings.map(w => `<li>${esc(w)}</li>`).join("")}</ul></p></div>`;
+  }
+  return `<div class="health">${icon}<p>今天抓到 <b>${h.complete_count.toLocaleString()}</b> 部完結 +
+    <b>${h.ongoing_count.toLocaleString()}</b> 部連載,資料正常。<br>
+    若某天抓到 0 筆,這裡會轉紅警告,不會假裝沒事。</p></div>`;
+}
+
+function renderCountdown() {
+  const u = DATA.upcoming;
+  if (!u) {
+    return `<div class="errbox"><b>目前沒有「完結名單」公告</b>
+      <p>官方通常每月發一次下個月的名單。這個月可能還沒發,或標題用語改了。<br>
+      下面的全庫和剛完結仍然照常運作。</p></div>` + healthHTML();
+  }
+  const ongoing = u.items.filter(i => i.status === "ongoing");
+  const free    = u.items.filter(i => i.status === "completed_free");
+  const unknown = u.items.filter(i => i.status === "unknown");
+
+  // 進度條:公告發布日 → 生效日 走到哪了
+  let pct = 32;
+  if (u.posted_date) {
+    const a = new Date(u.posted_date), b = new Date(u.switch_date), now = new Date(DATA.today);
+    const span = (b - a) / 86400000;
+    if (span > 0) pct = Math.max(2, Math.min(100, Math.round((now - a) / 86400000 / span * 100)));
+  }
+  const dl = u.days_left;
+  const heroNum = dl > 0 ? dl : 0;
+  const heroUnit = dl > 0 ? "天後" : (dl === 0 ? "就是今天" : "已生效");
+
+  return `
+    <section class="hero">
+      <div class="lab">下次轉代幣</div>
+      <div class="num"><b>${heroNum}</b><span>${heroUnit}</span></div>
+      <div class="sub">${esc(fmtDate(u.switch_date))}起 <em>${u.items.length} 部</em>作品轉為完結解鎖模式<br>
+        之後看舊話要<em>代幣或看廣告</em></div>
+      <div class="bar"><i style="width:${pct}%"></i></div>
+      <div class="barcap"><span>${esc(fmtDate(u.posted_date))} 官方公告</span><span>${esc(fmtDate(u.switch_date))} 生效</span></div>
+    </section>
+
+    ${ongoing.length ? `<h2 class="warn">快要完結<span class="n">${ongoing.length}</span></h2>
+      ${ongoing.map(i => rowHTML(i, dl > 0 ? dl : 0)).join("")}` : ""}
+
+    ${free.length ? `<h2 class="ok">已完結 · 還免費<span class="n">${free.length}</span></h2>
+      ${free.map(i => rowHTML(i, dl > 0 ? dl : 0)).join("")}` : ""}
+
+    ${unknown.length ? `<h2>公告有、站上沒找到<span class="n">${unknown.length}</span></h2>
+      ${unknown.map(i => rowHTML(i, null)).join("")}` : ""}
+
+    <h2>今天剛完結<span class="n">${DATA.newly_completed.length}</span></h2>
+    ${DATA.newly_completed.length
+      ? DATA.newly_completed.map(i => rowHTML({ ...i, status: "completed_free" }, null)).join("")
+      : `<div class="empty"><p><b>今天沒有作品完結</b><br>
+         清單跟上次比對後沒有新增</p></div>`}
+
+    <h2>已完結全庫</h2>
+    <a class="vault" href="#" data-goto="library">
+      <div class="ico"><svg width="19" height="19" viewBox="0 0 20 20" fill="none" stroke="#00DC64" stroke-width="1.7" stroke-linecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h9"/></svg></div>
+      <div class="vt"><b>${DATA.completed_total.toLocaleString()} 部</b><span>可搜尋 · 點進去看原作品頁</span></div>
+      <svg width="8" height="14" viewBox="0 0 8 14" fill="none" stroke="#5C646D" stroke-width="2" stroke-linecap="round"><path d="M1 1l6 6-6 6"/></svg>
+    </a>
+
+    ${healthHTML()}`;
+}
+
+function renderNew() {
+  const n = DATA.newly_completed;
+  return `<h2 class="ok">今天剛完結<span class="n">${n.length}</span></h2>
+    ${n.length ? n.map(i => rowHTML({ ...i, status: "completed_free" }, null)).join("")
+      : `<div class="empty"><p><b>今天沒有作品完結</b><br>
+         跟上一次抓到的 ${DATA.completed_total.toLocaleString()} 部比對後沒有新增</p></div>`}
+    <div class="libnote">每天自動抓一次,跟前一天的清單比對。<br>
+      有作品完結會出現在這裡。</div>`;
+}
+
+function renderLibrary(keyword) {
+  if (!LIB) return `<div class="loading">讀取全庫…</div>`;
+  const kw = (keyword || "").trim();
+  const hit = kw ? LIB.items.filter(i => i.title.includes(kw) || (i.genre || "").includes(kw)) : LIB.items;
+  const show = hit.slice(0, 100);
+  return `
+    <input class="search" id="q" type="search" placeholder="搜尋作品名或類型…" value="${esc(kw)}">
+    ${show.map(i => `<a class="librow" href="${esc(i.href)}" target="_blank" rel="noopener">
+        <div class="lb"><b>${esc(i.title)}</b><span>${esc(i.genre || "")}${i.likes ? " · " + esc(i.likes) + " 讚" : ""}</span></div>
+        <span class="ln">#${esc(i.no)}</span></a>`).join("")}
+    <div class="libnote">
+      ${hit.length === 0 ? `找不到「${esc(kw)}」`
+        : hit.length > show.length
+          ? `顯示 ${show.length} / ${hit.length.toLocaleString()} 筆,打字縮小範圍`
+          : `共 ${hit.length.toLocaleString()} 筆`}
+    </div>`;
+}
+
+function renderSettings() {
+  const h = DATA.health;
+  return `
+    <div class="setrow"><span class="sk">資料更新時間</span><span class="sv">${esc(fmtDateTime(DATA.generated_at))}</span></div>
+    <div class="setrow"><span class="sk">已完結全庫</span><span class="sv">${DATA.completed_total.toLocaleString()} 部</span></div>
+    <div class="setrow"><span class="sk">連載中</span><span class="sv">${DATA.ongoing_total.toLocaleString()} 部</span></div>
+    <div class="setrow"><span class="sk">抓取狀態</span><span class="sv" style="color:${h.ok ? "var(--green)" : "var(--red)"}">${h.ok ? "正常" : h.warnings.length + " 個警告"}</span></div>
+    ${DATA.upcoming ? `<div class="setrow"><span class="sk">依據公告</span>
+      <span class="sv" style="font-size:11.5px">${esc(DATA.upcoming.notice_title)}<br>
+      <a href="https://www.webtoons.com/zh-hant/notice/detail?noticeNo=${esc(DATA.upcoming.notice_no)}"
+         target="_blank" rel="noopener" style="color:var(--green);text-decoration:none">看原公告 →</a></span></div>` : ""}
+    ${healthHTML()}
+    <div class="setnote">
+      資料每天自動從 <a href="https://www.webtoons.com/zh-hant/" target="_blank" rel="noopener">LINE WEBTOON 台灣站</a>
+      抓一次:完結列表、七天連載列表、以及官方「完結名單」公告。<br><br>
+      「快要完結」= 公告點名了、但站上還在連載的作品。<br>
+      「已完結 · 還免費」= 已經完結、現在補完不用代幣,到生效日就要了。<br><br>
+      這是非官方工具,以官方公告為準。
+    </div>`;
+}
+
+function fmtDate(s) {
+  if (!s) return "—";
+  const [y, m, d] = s.split("-");
+  return `${+m}月${+d}日`;
+}
+function fmtDateTime(s) {
+  if (!s) return "—";
+  const d = new Date(s);
+  if (isNaN(d)) return s;
+  return `${d.getMonth() + 1}/${d.getDate()} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+}
+
+function paint() {
+  const main = $("#main");
+  if (TAB === "countdown") main.innerHTML = renderCountdown();
+  else if (TAB === "new")   main.innerHTML = renderNew();
+  else if (TAB === "library") {
+    main.innerHTML = renderLibrary("");
+    if (!LIB) loadLibrary();
+  }
+  else main.innerHTML = renderSettings();
+  main.scrollTop = 0;
+}
+
+function setTab(tab) {
+  TAB = tab;
+  document.querySelectorAll("nav a").forEach(a => a.classList.toggle("on", a.dataset.tab === tab));
+  paint();
+}
+
+async function loadLibrary() {
+  try {
+    LIB = await (await fetch("data/library.json", { cache: "no-cache" })).json();
+    if (TAB === "library") paint();
+  } catch (e) {
+    if (TAB === "library") $("#main").innerHTML =
+      `<div class="errbox"><b>全庫清單載入失敗</b><p>${esc(e.message)}</p></div>`;
+  }
+}
+
+async function load() {
+  try {
+    DATA = await (await fetch("data/latest.json", { cache: "no-cache" })).json();
+  } catch (e) {
+    $("#sync").textContent = "載入失敗";
+    $("#dot").className = "dot bad";
+    $("#main").innerHTML = `<div class="errbox"><b>讀不到資料</b>
+      <p>可能是還沒跑過第一次抓取,或網路不通。<br>錯誤:${esc(e.message)}</p></div>`;
+    return;
+  }
+  // 資料超過 36 小時沒更新 = 排程可能出事了,燈號轉黃
+  const age = (Date.now() - new Date(DATA.generated_at).getTime()) / 3600000;
+  $("#dot").className = "dot" + (!DATA.health.ok ? " bad" : age > 36 ? " stale" : "");
+  $("#sync").innerHTML = `${esc(fmtDateTime(DATA.generated_at))}<br>${age > 36 ? "已過期,點我重讀" : "自動更新完成"}`;
+
+  const n = DATA.upcoming ? DATA.upcoming.items.length : 0;
+  const bdg = $("#bdg");
+  bdg.hidden = !n; bdg.textContent = n;
+
+  paint();
+}
+
+document.addEventListener("click", e => {
+  const tab = e.target.closest("[data-tab]");
+  if (tab) { e.preventDefault(); setTab(tab.dataset.tab); return; }
+  const go = e.target.closest("[data-goto]");
+  if (go) { e.preventDefault(); setTab(go.dataset.goto); return; }
+  if (e.target.closest("#sync")) { e.preventDefault(); load(); }
+});
+document.addEventListener("input", e => {
+  if (e.target.id === "q") {
+    const pos = e.target.selectionStart, v = e.target.value;
+    $("#main").innerHTML = renderLibrary(v);
+    const q = $("#q"); q.focus(); q.setSelectionRange(pos, pos);
+  }
+});
+
+function tick() {
+  const d = new Date();
+  $("#clock").textContent = `${d.getHours()}:${String(d.getMinutes()).padStart(2, "0")}`;
+}
+tick(); setInterval(tick, 30000);
+load();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}
+</script>
+</body>
+</html>
