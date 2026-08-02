@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-02T06:59:34+08:00",
- "today": "2026-08-02",
+ "generated_at": "2026-08-03T07:00:19+08:00",
+ "today": "2026-08-03",
  "health": {
   "ok": true,
-  "complete_count": 1162,
+  "complete_count": 1163,
   "ongoing_count": 809,
   "notice_found": true,
   "warnings": [],
-  "checked_at": "2026-08-02T06:59:34+08:00"
+  "checked_at": "2026-08-03T07:00:19+08:00"
  },
  "upcoming": {
   "notice_no": 3727,
@@ -28,13 +28,13 @@
    "黑暗侵襲",
    "海風盤旋時"
   ],
-  "days_left": 19,
+  "days_left": 18,
   "items": [
    {
     "title": "深夜裡的訪客",
     "no": "7389",
     "genre": "大人系",
-    "likes": "47,602",
+    "likes": "47,674",
     "href": "https://www.webtoons.com/zh-hant/romance-m/the-visitor-of-the-night/list?title_no=7389",
     "weekday": null,
     "status": "completed_free",
@@ -44,7 +44,7 @@
     "title": "戀愛警報",
     "no": "7902",
     "genre": "大人系",
-    "likes": "25,856",
+    "likes": "26,011",
     "href": "https://www.webtoons.com/zh-hant/romance-m/beware-of-love/list?title_no=7902",
     "weekday": null,
     "status": "completed_free",
@@ -54,7 +54,7 @@
     "title": "遠離渣男守則",
     "no": "7897",
     "genre": "愛情",
-    "likes": "103,342",
+    "likes": "103,597",
     "href": "https://www.webtoons.com/zh-hant/romance/rules-for-dating-trash/list?title_no=7897",
     "weekday": null,
     "status": "completed_free",
@@ -64,7 +64,7 @@
     "title": "反被馴養的瘋狗囚禁",
     "no": "7388",
     "genre": "歐式宮廷",
-    "likes": "16,748",
+    "likes": "16,791",
     "href": "https://www.webtoons.com/zh-hant/western-palace/locked-up-by-my-mad-dog/list?title_no=7388",
     "weekday": null,
     "status": "completed_free",
@@ -74,7 +74,7 @@
     "title": "靠神級天賦無限成長",
     "no": "5234",
     "genre": "奇幻冒險",
-    "likes": "164,442",
+    "likes": "164,543",
     "href": "https://www.webtoons.com/zh-hant/fantasy/boundless-necromancer/list?title_no=5234",
     "weekday": null,
     "status": "completed_free",
@@ -84,7 +84,7 @@
     "title": "無殼蝸牛的悲歌",
     "no": "8524",
     "genre": "驚悚",
-    "likes": "11,652",
+    "likes": "11,702",
     "href": "https://www.webtoons.com/zh-hant/thriller/deadly-to-the-landless/list?title_no=8524",
     "weekday": null,
     "status": "completed_free",
@@ -94,7 +94,7 @@
     "title": "健身地下城",
     "no": "5150",
     "genre": "奇幻冒險",
-    "likes": "54,127",
+    "likes": "54,168",
     "href": "https://www.webtoons.com/zh-hant/fantasy/health-dungeon/list?title_no=5150",
     "weekday": null,
     "status": "completed_free",
@@ -104,7 +104,7 @@
     "title": "首爾末日危機",
     "no": "4283",
     "genre": "驚悚",
-    "likes": "250,887",
+    "likes": "251,089",
     "href": "https://www.webtoons.com/zh-hant/thriller/shouermoriweiji/list?title_no=4283",
     "weekday": null,
     "status": "completed_free",
@@ -114,7 +114,7 @@
     "title": "電子遊戲守護隊",
     "no": "3090",
     "genre": "奇幻冒險",
-    "likes": "51,225",
+    "likes": "51,446",
     "href": "https://www.webtoons.com/zh-hant/fantasy/guardiansofthevideogame/list?title_no=3090",
     "weekday": null,
     "status": "completed_free",
@@ -134,7 +134,7 @@
     "title": "黑暗侵襲",
     "no": "7094",
     "genre": "奇幻冒險",
-    "likes": "24,671",
+    "likes": "24,866",
     "href": "https://www.webtoons.com/zh-hant/fantasy/darkinvesion/list?title_no=7094",
     "weekday": "sunday",
     "status": "ongoing",
@@ -144,7 +144,7 @@
     "title": "海風盤旋時",
     "no": "5301",
     "genre": "愛情",
-    "likes": "14,288",
+    "likes": "14,310",
     "href": "https://www.webtoons.com/zh-hant/romance/sea-breeze-swirling/list?title_no=5301",
     "weekday": "thursday",
     "status": "ongoing",
@@ -152,7 +152,16 @@
    }
   ]
  },
- "newly_completed": [],
- "completed_total": 1162,
+ "newly_completed": [
+  {
+   "title": "冬之森",
+   "no": "726",
+   "genre": "愛情",
+   "likes": "177,670",
+   "href": "https://www.webtoons.com/zh-hant/romance/dongzhisen/list?title_no=726",
+   "thumb": "thumbs/726.jpg"
+  }
+ ],
+ "completed_total": 1163,
  "ongoing_total": 809
 }
