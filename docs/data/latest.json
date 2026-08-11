@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-11T06:45:03+08:00",
- "today": "2026-08-11",
+ "generated_at": "2026-08-12T06:51:04+08:00",
+ "today": "2026-08-12",
  "health": {
   "ok": true,
-  "complete_count": 1167,
-  "ongoing_count": 816,
+  "complete_count": 1168,
+  "ongoing_count": 817,
   "notice_found": true,
   "warnings": [],
-  "checked_at": "2026-08-11T06:45:03+08:00"
+  "checked_at": "2026-08-12T06:51:04+08:00"
  },
  "upcoming": {
   "notice_no": 3727,
@@ -28,13 +28,13 @@
    "黑暗侵襲",
    "海風盤旋時"
   ],
-  "days_left": 10,
+  "days_left": 9,
   "items": [
    {
     "title": "深夜裡的訪客",
     "no": "7389",
     "genre": "大人系",
-    "likes": "48,631",
+    "likes": "48,719",
     "href": "https://www.webtoons.com/zh-hant/romance-m/the-visitor-of-the-night/list?title_no=7389",
     "weekday": null,
     "status": "completed_free",
@@ -44,7 +44,7 @@
     "title": "戀愛警報",
     "no": "7902",
     "genre": "大人系",
-    "likes": "26,598",
+    "likes": "26,818",
     "href": "https://www.webtoons.com/zh-hant/romance-m/beware-of-love/list?title_no=7902",
     "weekday": null,
     "status": "completed_free",
@@ -54,7 +54,7 @@
     "title": "遠離渣男守則",
     "no": "7897",
     "genre": "愛情",
-    "likes": "105,886",
+    "likes": "106,106",
     "href": "https://www.webtoons.com/zh-hant/romance/rules-for-dating-trash/list?title_no=7897",
     "weekday": null,
     "status": "completed_free",
@@ -64,7 +64,7 @@
     "title": "反被馴養的瘋狗囚禁",
     "no": "7388",
     "genre": "歐式宮廷",
-    "likes": "17,475",
+    "likes": "17,498",
     "href": "https://www.webtoons.com/zh-hant/western-palace/locked-up-by-my-mad-dog/list?title_no=7388",
     "weekday": null,
     "status": "completed_free",
@@ -74,7 +74,7 @@
     "title": "靠神級天賦無限成長",
     "no": "5234",
     "genre": "奇幻冒險",
-    "likes": "165,505",
+    "likes": "165,720",
     "href": "https://www.webtoons.com/zh-hant/fantasy/boundless-necromancer/list?title_no=5234",
     "weekday": null,
     "status": "completed_free",
@@ -84,7 +84,7 @@
     "title": "無殼蝸牛的悲歌",
     "no": "8524",
     "genre": "驚悚",
-    "likes": "12,016",
+    "likes": "12,025",
     "href": "https://www.webtoons.com/zh-hant/thriller/deadly-to-the-landless/list?title_no=8524",
     "weekday": null,
     "status": "completed_free",
@@ -94,7 +94,7 @@
     "title": "健身地下城",
     "no": "5150",
     "genre": "奇幻冒險",
-    "likes": "55,118",
+    "likes": "55,172",
     "href": "https://www.webtoons.com/zh-hant/fantasy/health-dungeon/list?title_no=5150",
     "weekday": null,
     "status": "completed_free",
@@ -104,7 +104,7 @@
     "title": "首爾末日危機",
     "no": "4283",
     "genre": "驚悚",
-    "likes": "252,980",
+    "likes": "253,116",
     "href": "https://www.webtoons.com/zh-hant/thriller/shouermoriweiji/list?title_no=4283",
     "weekday": null,
     "status": "completed_free",
@@ -114,7 +114,7 @@
     "title": "電子遊戲守護隊",
     "no": "3090",
     "genre": "奇幻冒險",
-    "likes": "52,243",
+    "likes": "52,361",
     "href": "https://www.webtoons.com/zh-hant/fantasy/guardiansofthevideogame/list?title_no=3090",
     "weekday": null,
     "status": "completed_free",
@@ -134,7 +134,7 @@
     "title": "黑暗侵襲",
     "no": "7094",
     "genre": "奇幻冒險",
-    "likes": "25,192",
+    "likes": "25,269",
     "href": "https://www.webtoons.com/zh-hant/fantasy/darkinvesion/list?title_no=7094",
     "weekday": "sunday",
     "status": "ongoing",
@@ -144,7 +144,7 @@
     "title": "海風盤旋時",
     "no": "5301",
     "genre": "愛情",
-    "likes": "14,686",
+    "likes": "14,695",
     "href": "https://www.webtoons.com/zh-hant/romance/sea-breeze-swirling/list?title_no=5301",
     "weekday": "thursday",
     "status": "ongoing",
@@ -154,14 +154,14 @@
  },
  "newly_completed": [
   {
-   "title": "比惡魔更危險的你",
-   "no": "10454",
-   "genre": "大人系",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/romance-m/youre-more-dangerous-than-the-supernatural/list?title_no=10454",
-   "thumb": "thumbs/10454.jpg"
+   "title": "格鬥之王",
+   "no": "5008",
+   "genre": "動作",
+   "likes": "91,876",
+   "href": "https://www.webtoons.com/zh-hant/action/king-of-the-octagon/list?title_no=5008",
+   "thumb": "thumbs/5008.png"
   }
  ],
- "completed_total": 1167,
- "ongoing_total": 816
+ "completed_total": 1168,
+ "ongoing_total": 817
 }
