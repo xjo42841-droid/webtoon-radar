@@ -1,13 +1,15 @@
 {
- "generated_at": "2026-08-12T06:51:04+08:00",
- "today": "2026-08-12",
+ "generated_at": "2026-08-13T06:49:24+08:00",
+ "today": "2026-08-13",
  "health": {
-  "ok": true,
-  "complete_count": 1168,
-  "ongoing_count": 817,
+  "ok": false,
+  "complete_count": 1170,
+  "ongoing_count": 828,
   "notice_found": true,
-  "warnings": [],
-  "checked_at": "2026-08-12T06:51:04+08:00"
+  "warnings": [
+   "公告有 1 部作品在站上對不到名稱:宅男打籃球 （此作品將於2026年8月13日轉為完結解鎖模式）"
+  ],
+  "checked_at": "2026-08-13T06:49:24+08:00"
  },
  "upcoming": {
   "notice_no": 3727,
@@ -24,17 +26,17 @@
    "健身地下城",
    "首爾末日危機",
    "電子遊戲守護隊",
-   "宅男打籃球",
+   "宅男打籃球 （此作品將於2026年8月13日轉為完結解鎖模式）",
    "黑暗侵襲",
    "海風盤旋時"
   ],
-  "days_left": 9,
+  "days_left": 8,
   "items": [
    {
     "title": "深夜裡的訪客",
     "no": "7389",
     "genre": "大人系",
-    "likes": "48,719",
+    "likes": "48,763",
     "href": "https://www.webtoons.com/zh-hant/romance-m/the-visitor-of-the-night/list?title_no=7389",
     "weekday": null,
     "status": "completed_free",
@@ -44,7 +46,7 @@
     "title": "戀愛警報",
     "no": "7902",
     "genre": "大人系",
-    "likes": "26,818",
+    "likes": "26,919",
     "href": "https://www.webtoons.com/zh-hant/romance-m/beware-of-love/list?title_no=7902",
     "weekday": null,
     "status": "completed_free",
@@ -54,7 +56,7 @@
     "title": "遠離渣男守則",
     "no": "7897",
     "genre": "愛情",
-    "likes": "106,106",
+    "likes": "106,462",
     "href": "https://www.webtoons.com/zh-hant/romance/rules-for-dating-trash/list?title_no=7897",
     "weekday": null,
     "status": "completed_free",
@@ -64,7 +66,7 @@
     "title": "反被馴養的瘋狗囚禁",
     "no": "7388",
     "genre": "歐式宮廷",
-    "likes": "17,498",
+    "likes": "17,576",
     "href": "https://www.webtoons.com/zh-hant/western-palace/locked-up-by-my-mad-dog/list?title_no=7388",
     "weekday": null,
     "status": "completed_free",
@@ -74,7 +76,7 @@
     "title": "靠神級天賦無限成長",
     "no": "5234",
     "genre": "奇幻冒險",
-    "likes": "165,720",
+    "likes": "165,779",
     "href": "https://www.webtoons.com/zh-hant/fantasy/boundless-necromancer/list?title_no=5234",
     "weekday": null,
     "status": "completed_free",
@@ -84,7 +86,7 @@
     "title": "無殼蝸牛的悲歌",
     "no": "8524",
     "genre": "驚悚",
-    "likes": "12,025",
+    "likes": "12,050",
     "href": "https://www.webtoons.com/zh-hant/thriller/deadly-to-the-landless/list?title_no=8524",
     "weekday": null,
     "status": "completed_free",
@@ -94,7 +96,7 @@
     "title": "健身地下城",
     "no": "5150",
     "genre": "奇幻冒險",
-    "likes": "55,172",
+    "likes": "55,261",
     "href": "https://www.webtoons.com/zh-hant/fantasy/health-dungeon/list?title_no=5150",
     "weekday": null,
     "status": "completed_free",
@@ -104,7 +106,7 @@
     "title": "首爾末日危機",
     "no": "4283",
     "genre": "驚悚",
-    "likes": "253,116",
+    "likes": "253,319",
     "href": "https://www.webtoons.com/zh-hant/thriller/shouermoriweiji/list?title_no=4283",
     "weekday": null,
     "status": "completed_free",
@@ -114,27 +116,21 @@
     "title": "電子遊戲守護隊",
     "no": "3090",
     "genre": "奇幻冒險",
-    "likes": "52,361",
+    "likes": "52,537",
     "href": "https://www.webtoons.com/zh-hant/fantasy/guardiansofthevideogame/list?title_no=3090",
     "weekday": null,
     "status": "completed_free",
     "thumb": "thumbs/3090.png"
    },
    {
-    "title": "宅男打籃球",
-    "no": "450",
-    "genre": "台灣原創作品",
-    "likes": "239.3萬",
-    "href": "https://www.webtoons.com/zh-hant/local/zhainandalanqiu/list?title_no=450",
-    "weekday": "sunday",
-    "status": "ongoing",
-    "thumb": "thumbs/450.jpg"
+    "title": "宅男打籃球 （此作品將於2026年8月13日轉為完結解鎖模式）",
+    "status": "unknown"
    },
    {
     "title": "黑暗侵襲",
     "no": "7094",
     "genre": "奇幻冒險",
-    "likes": "25,269",
+    "likes": "25,309",
     "href": "https://www.webtoons.com/zh-hant/fantasy/darkinvesion/list?title_no=7094",
     "weekday": "sunday",
     "status": "ongoing",
@@ -144,7 +140,7 @@
     "title": "海風盤旋時",
     "no": "5301",
     "genre": "愛情",
-    "likes": "14,695",
+    "likes": "14,703",
     "href": "https://www.webtoons.com/zh-hant/romance/sea-breeze-swirling/list?title_no=5301",
     "weekday": "thursday",
     "status": "ongoing",
@@ -154,14 +150,22 @@
  },
  "newly_completed": [
   {
-   "title": "格鬥之王",
-   "no": "5008",
-   "genre": "動作",
-   "likes": "91,876",
-   "href": "https://www.webtoons.com/zh-hant/action/king-of-the-octagon/list?title_no=5008",
-   "thumb": "thumbs/5008.png"
+   "title": "撩人的姐姐",
+   "no": "8227",
+   "genre": "大人系",
+   "likes": "16,999",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/my-spicy-ex-girlfriend/list?title_no=8227",
+   "thumb": "thumbs/8227.png"
+  },
+  {
+   "title": "小紅帽想吃掉大野狼!",
+   "no": "10457",
+   "genre": "大人系",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/little-red-riding-hood-wants-to-eat-the-wolf/list?title_no=10457",
+   "thumb": "thumbs/10457.jpg"
   }
  ],
- "completed_total": 1168,
- "ongoing_total": 817
+ "completed_total": 1170,
+ "ongoing_total": 828
 }
