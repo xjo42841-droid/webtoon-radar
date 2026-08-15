@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-15T06:29:43+08:00",
- "today": "2026-08-15",
+ "generated_at": "2026-08-16T06:27:53+08:00",
+ "today": "2026-08-16",
  "health": {
   "ok": false,
   "complete_count": 1172,
-  "ongoing_count": 828,
+  "ongoing_count": 829,
   "notice_found": true,
   "warnings": [
    "公告有 1 部作品在站上對不到名稱:宅男打籃球 （此作品將於2026年8月13日轉為完結解鎖模式）"
   ],
-  "checked_at": "2026-08-15T06:29:43+08:00"
+  "checked_at": "2026-08-16T06:27:53+08:00"
  },
  "upcoming": {
   "notice_no": 3727,
@@ -30,7 +30,7 @@
    "黑暗侵襲",
    "海風盤旋時"
   ],
-  "days_left": 6,
+  "days_left": 5,
   "items": [
    {
     "title": "深夜裡的訪客",
@@ -150,5 +150,5 @@
  },
  "newly_completed": [],
  "completed_total": 1172,
- "ongoing_total": 828
+ "ongoing_total": 829
 }
