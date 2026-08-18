@@ -1,76 +1,90 @@
 {
- "generated_at": "2026-08-18T06:30:19+08:00",
- "today": "2026-08-18",
+ "generated_at": "2026-08-19T06:30:19+08:00",
+ "today": "2026-08-19",
  "health": {
   "ok": false,
-  "complete_count": 1172,
+  "complete_count": 1173,
   "ongoing_count": 832,
   "notice_found": true,
   "warnings": [
-   "公告有 1 部作品在站上對不到名稱:宅男打籃球 （此作品將於2026年8月13日轉為完結解鎖模式）"
+   "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
   ],
-  "checked_at": "2026-08-18T06:30:19+08:00"
+  "checked_at": "2026-08-19T06:30:19+08:00"
  },
  "upcoming": {
-  "notice_no": 3727,
-  "notice_title": "【重要通知】8月最新完結名單",
-  "posted_date": "2026-07-22",
-  "switch_date": "2026-08-21",
+  "notice_no": 3743,
+  "notice_title": "【重要通知】9月最新完結名單",
+  "posted_date": "2026-08-19",
+  "switch_date": "2026-09-18",
   "titles": [
-   "深夜裡的訪客",
-   "戀愛警報",
-   "遠離渣男守則",
-   "反被馴養的瘋狗囚禁",
+   "Arrange: 我們的主打歌",
+   "KissCross：夢戀悄悄話",
+   "白氏世家絕症公子",
+   "冰影戰魂",
+   "鄰家弟弟長大了",
    "靠神級天賦無限成長",
-   "無殼蝸牛的悲歌",
-   "健身地下城",
-   "首爾末日危機",
-   "電子遊戲守護隊",
-   "宅男打籃球 （此作品將於2026年8月13日轉為完結解鎖模式）",
-   "黑暗侵襲",
-   "海風盤旋時"
+   "末日獨尊：死靈法師",
+   "反派皇子識破我的真面目",
+   "在魔法學院偽裝教師",
+   "重生不良小教主 ​",
+   "緋色之戀",
+   "脫軌",
+   "撩人的姐姐",
+   "九龍：裟洛卡",
+   "冬之森",
+   "只想佔有你​​"
   ],
-  "days_left": 3,
+  "days_left": 30,
   "items": [
    {
-    "title": "深夜裡的訪客",
-    "no": "7389",
-    "genre": "大人系",
-    "likes": "48,798",
-    "href": "https://www.webtoons.com/zh-hant/romance-m/the-visitor-of-the-night/list?title_no=7389",
+    "title": "Arrange: 我們的主打歌",
+    "no": "8401",
+    "genre": "LGBTQ+",
+    "likes": "1,664",
+    "href": "https://www.webtoons.com/zh-hant/bl-gl/arrange/list?title_no=8401",
     "weekday": null,
     "status": "completed_free",
-    "thumb": "thumbs/7389.jpg"
+    "thumb": "thumbs/8401.jpg"
    },
    {
-    "title": "戀愛警報",
-    "no": "7902",
-    "genre": "大人系",
-    "likes": "26,977",
-    "href": "https://www.webtoons.com/zh-hant/romance-m/beware-of-love/list?title_no=7902",
+    "title": "KissCross：夢戀悄悄話",
+    "no": "8978",
+    "genre": "LGBTQ+",
+    "likes": "2,096",
+    "href": "https://www.webtoons.com/zh-hant/bl-gl/kisscross/list?title_no=8978",
     "weekday": null,
     "status": "completed_free",
-    "thumb": "thumbs/7902.png"
+    "thumb": "thumbs/8978.jpg"
    },
    {
-    "title": "遠離渣男守則",
-    "no": "7897",
+    "title": "白氏世家絕症公子",
+    "no": "5891",
+    "genre": "武俠",
+    "likes": "70,831",
+    "href": "https://www.webtoons.com/zh-hant/martial-arts/the-baek-clans-sickly-young-master/list?title_no=5891",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/5891.jpg"
+   },
+   {
+    "title": "冰影戰魂",
+    "no": "8226",
+    "genre": "動作",
+    "likes": "4,955",
+    "href": "https://www.webtoons.com/zh-hant/action/the-frostbound-warrior/list?title_no=8226",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/8226.jpg"
+   },
+   {
+    "title": "鄰家弟弟長大了",
+    "no": "6542",
     "genre": "愛情",
-    "likes": "106,867",
-    "href": "https://www.webtoons.com/zh-hant/romance/rules-for-dating-trash/list?title_no=7897",
+    "likes": "60,320",
+    "href": "https://www.webtoons.com/zh-hant/romance/the-boy-next-door/list?title_no=6542",
     "weekday": null,
     "status": "completed_free",
-    "thumb": "thumbs/7897.jpg"
-   },
-   {
-    "title": "反被馴養的瘋狗囚禁",
-    "no": "7388",
-    "genre": "歐式宮廷",
-    "likes": "17,615",
-    "href": "https://www.webtoons.com/zh-hant/western-palace/locked-up-by-my-mad-dog/list?title_no=7388",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/7388.jpg"
+    "thumb": "thumbs/6542.jpg"
    },
    {
     "title": "靠神級天賦無限成長",
@@ -83,72 +97,105 @@
     "thumb": "thumbs/5234.jpg"
    },
    {
-    "title": "無殼蝸牛的悲歌",
-    "no": "8524",
-    "genre": "驚悚",
-    "likes": "12,157",
-    "href": "https://www.webtoons.com/zh-hant/thriller/deadly-to-the-landless/list?title_no=8524",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/8524.jpg"
-   },
-   {
-    "title": "健身地下城",
-    "no": "5150",
+    "title": "末日獨尊：死靈法師",
+    "no": "4111",
     "genre": "奇幻冒險",
-    "likes": "55,313",
-    "href": "https://www.webtoons.com/zh-hant/fantasy/health-dungeon/list?title_no=5150",
+    "likes": "431,864",
+    "href": "https://www.webtoons.com/zh-hant/fantasy/the-lone-necromancer/list?title_no=4111",
     "weekday": null,
     "status": "completed_free",
-    "thumb": "thumbs/5150.png"
+    "thumb": "thumbs/4111.png"
    },
    {
-    "title": "首爾末日危機",
-    "no": "4283",
-    "genre": "驚悚",
-    "likes": "253,520",
-    "href": "https://www.webtoons.com/zh-hant/thriller/shouermoriweiji/list?title_no=4283",
+    "title": "反派皇子識破我的真面目",
+    "no": "4360",
+    "genre": "歐式宮廷",
+    "likes": "168,183",
+    "href": "https://www.webtoons.com/zh-hant/western-palace/caught-by-the-villain/list?title_no=4360",
     "weekday": null,
     "status": "completed_free",
-    "thumb": "thumbs/4283.jpg"
+    "thumb": "thumbs/4360.png"
    },
    {
-    "title": "電子遊戲守護隊",
-    "no": "3090",
+    "title": "在魔法學院偽裝教師",
+    "no": "4730",
     "genre": "奇幻冒險",
-    "likes": "53,001",
-    "href": "https://www.webtoons.com/zh-hant/fantasy/guardiansofthevideogame/list?title_no=3090",
+    "likes": "417,494",
+    "href": "https://www.webtoons.com/zh-hant/fantasy/academys-undercover-professor/list?title_no=4730",
     "weekday": null,
     "status": "completed_free",
-    "thumb": "thumbs/3090.png"
+    "thumb": "thumbs/4730.png"
    },
    {
-    "title": "宅男打籃球 （此作品將於2026年8月13日轉為完結解鎖模式）",
+    "title": "重生不良小教主 ​",
     "status": "unknown"
    },
    {
-    "title": "黑暗侵襲",
-    "no": "7094",
-    "genre": "奇幻冒險",
-    "likes": "25,381",
-    "href": "https://www.webtoons.com/zh-hant/fantasy/darkinvesion/list?title_no=7094",
-    "weekday": "sunday",
-    "status": "ongoing",
-    "thumb": "thumbs/7094.png"
+    "title": "緋色之戀",
+    "no": "6613",
+    "genre": "愛情",
+    "likes": "12,792",
+    "href": "https://www.webtoons.com/zh-hant/romance/chasing-red/list?title_no=6613",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/6613.png"
    },
    {
-    "title": "海風盤旋時",
-    "no": "5301",
-    "genre": "愛情",
-    "likes": "14,755",
-    "href": "https://www.webtoons.com/zh-hant/romance/sea-breeze-swirling/list?title_no=5301",
-    "weekday": "thursday",
+    "title": "脫軌",
+    "no": "7277",
+    "genre": "大人系",
+    "likes": "115,252",
+    "href": "https://www.webtoons.com/zh-hant/romance-m/unraveled/list?title_no=7277",
+    "weekday": "wednesday",
     "status": "ongoing",
-    "thumb": "thumbs/5301.png"
+    "thumb": "thumbs/7277.png"
+   },
+   {
+    "title": "撩人的姐姐",
+    "no": "8227",
+    "genre": "大人系",
+    "likes": "17,076",
+    "href": "https://www.webtoons.com/zh-hant/romance-m/my-spicy-ex-girlfriend/list?title_no=8227",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/8227.png"
+   },
+   {
+    "title": "九龍：裟洛卡",
+    "no": "7377",
+    "genre": "動作",
+    "likes": "13,728",
+    "href": "https://www.webtoons.com/zh-hant/action/kowloon-copoka/list?title_no=7377",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/7377.png"
+   },
+   {
+    "title": "冬之森",
+    "no": "726",
+    "genre": "愛情",
+    "likes": "178,149",
+    "href": "https://www.webtoons.com/zh-hant/romance/dongzhisen/list?title_no=726",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/726.jpg"
+   },
+   {
+    "title": "只想佔有你​​",
+    "status": "unknown"
    }
   ]
  },
- "newly_completed": [],
- "completed_total": 1172,
+ "newly_completed": [
+  {
+   "title": "重生不良小教主",
+   "no": "3308",
+   "genre": "武俠",
+   "likes": "367,848",
+   "href": "https://www.webtoons.com/zh-hant/martial-arts/reincarnated-as-an-unruly-heir/list?title_no=3308",
+   "thumb": "thumbs/3308.png"
+  }
+ ],
+ "completed_total": 1173,
  "ongoing_total": 832
 }
