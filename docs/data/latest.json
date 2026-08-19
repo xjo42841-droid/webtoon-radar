@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-19T06:30:19+08:00",
- "today": "2026-08-19",
+ "generated_at": "2026-08-20T06:30:30+08:00",
+ "today": "2026-08-20",
  "health": {
   "ok": false,
   "complete_count": 1173,
-  "ongoing_count": 832,
+  "ongoing_count": 833,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
   ],
-  "checked_at": "2026-08-19T06:30:19+08:00"
+  "checked_at": "2026-08-20T06:30:30+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -34,7 +34,7 @@
    "冬之森",
    "只想佔有你​​"
   ],
-  "days_left": 30,
+  "days_left": 29,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -186,16 +186,7 @@
    }
   ]
  },
- "newly_completed": [
-  {
-   "title": "重生不良小教主",
-   "no": "3308",
-   "genre": "武俠",
-   "likes": "367,848",
-   "href": "https://www.webtoons.com/zh-hant/martial-arts/reincarnated-as-an-unruly-heir/list?title_no=3308",
-   "thumb": "thumbs/3308.png"
-  }
- ],
+ "newly_completed": [],
  "completed_total": 1173,
- "ongoing_total": 832
+ "ongoing_total": 833
 }
