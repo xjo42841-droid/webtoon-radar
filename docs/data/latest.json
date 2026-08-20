@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-20T06:30:30+08:00",
- "today": "2026-08-20",
+ "generated_at": "2026-08-21T06:34:02+08:00",
+ "today": "2026-08-21",
  "health": {
   "ok": false,
-  "complete_count": 1173,
-  "ongoing_count": 833,
+  "complete_count": 1175,
+  "ongoing_count": 832,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
   ],
-  "checked_at": "2026-08-20T06:30:30+08:00"
+  "checked_at": "2026-08-21T06:34:02+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -34,7 +34,7 @@
    "冬之森",
    "只想佔有你​​"
   ],
-  "days_left": 29,
+  "days_left": 28,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -186,7 +186,24 @@
    }
   ]
  },
- "newly_completed": [],
- "completed_total": 1173,
- "ongoing_total": 833
+ "newly_completed": [
+  {
+   "title": "死後才懂的事",
+   "no": "8040",
+   "genre": "歐式宮廷",
+   "likes": "26,307",
+   "href": "https://www.webtoons.com/zh-hant/western-palace/what-death-taught-me/list?title_no=8040",
+   "thumb": "thumbs/8040.jpg"
+  },
+  {
+   "title": "語意錯誤",
+   "no": "4729",
+   "genre": "LGBTQ+",
+   "likes": "262,997",
+   "href": "https://www.webtoons.com/zh-hant/bl-gl/semantic-error/list?title_no=4729",
+   "thumb": "thumbs/4729.jpg"
+  }
+ ],
+ "completed_total": 1175,
+ "ongoing_total": 832
 }
