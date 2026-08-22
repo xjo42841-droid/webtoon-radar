@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-22T06:31:04+08:00",
- "today": "2026-08-22",
+ "generated_at": "2026-08-23T06:28:30+08:00",
+ "today": "2026-08-23",
  "health": {
   "ok": false,
   "complete_count": 1175,
-  "ongoing_count": 833,
+  "ongoing_count": 835,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
   ],
-  "checked_at": "2026-08-22T06:31:04+08:00"
+  "checked_at": "2026-08-23T06:28:30+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -34,7 +34,7 @@
    "冬之森",
    "只想佔有你​​"
   ],
-  "days_left": 27,
+  "days_left": 26,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -188,5 +188,5 @@
  },
  "newly_completed": [],
  "completed_total": 1175,
- "ongoing_total": 833
+ "ongoing_total": 835
 }
