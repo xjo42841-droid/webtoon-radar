@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-24T06:28:11+08:00",
- "today": "2026-08-24",
+ "generated_at": "2026-08-25T06:32:50+08:00",
+ "today": "2026-08-25",
  "health": {
   "ok": false,
-  "complete_count": 1176,
-  "ongoing_count": 835,
+  "complete_count": 1178,
+  "ongoing_count": 834,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
   ],
-  "checked_at": "2026-08-24T06:28:11+08:00"
+  "checked_at": "2026-08-25T06:32:50+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -34,7 +34,7 @@
    "冬之森",
    "只想佔有你​​"
   ],
-  "days_left": 25,
+  "days_left": 24,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -188,14 +188,22 @@
  },
  "newly_completed": [
   {
-   "title": "長期戀愛",
-   "no": "8709",
-   "genre": "愛情",
-   "likes": "12,693",
-   "href": "https://www.webtoons.com/zh-hant/romance/a-decade-of-us/list?title_no=8709",
-   "thumb": "thumbs/8709.jpg"
+   "title": "去見媽咪的路上",
+   "no": "7711",
+   "genre": "奇幻冒險",
+   "likes": "324,983",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/on-the-way-to-meet-mom/list?title_no=7711",
+   "thumb": "thumbs/7711.jpg"
+  },
+  {
+   "title": "重生後世界居然沒滅亡",
+   "no": "8043",
+   "genre": "奇幻冒險",
+   "likes": "21,001",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/regressed-but-the-world-didnt-end/list?title_no=8043",
+   "thumb": "thumbs/8043.jpg"
   }
  ],
- "completed_total": 1176,
- "ongoing_total": 835
+ "completed_total": 1178,
+ "ongoing_total": 834
 }
