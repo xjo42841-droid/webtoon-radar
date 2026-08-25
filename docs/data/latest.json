@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-25T06:32:50+08:00",
- "today": "2026-08-25",
+ "generated_at": "2026-08-26T06:33:34+08:00",
+ "today": "2026-08-26",
  "health": {
   "ok": false,
-  "complete_count": 1178,
+  "complete_count": 1179,
   "ongoing_count": 834,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
   ],
-  "checked_at": "2026-08-25T06:32:50+08:00"
+  "checked_at": "2026-08-26T06:33:34+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -34,7 +34,7 @@
    "冬之森",
    "只想佔有你​​"
   ],
-  "days_left": 24,
+  "days_left": 23,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -188,22 +188,14 @@
  },
  "newly_completed": [
   {
-   "title": "去見媽咪的路上",
-   "no": "7711",
+   "title": "鋼之鍊金術師",
+   "no": "6973",
    "genre": "奇幻冒險",
-   "likes": "324,983",
-   "href": "https://www.webtoons.com/zh-hant/fantasy/on-the-way-to-meet-mom/list?title_no=7711",
-   "thumb": "thumbs/7711.jpg"
-  },
-  {
-   "title": "重生後世界居然沒滅亡",
-   "no": "8043",
-   "genre": "奇幻冒險",
-   "likes": "21,001",
-   "href": "https://www.webtoons.com/zh-hant/fantasy/regressed-but-the-world-didnt-end/list?title_no=8043",
-   "thumb": "thumbs/8043.jpg"
+   "likes": "13,348",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/full-metal-alchemist/list?title_no=6973",
+   "thumb": "thumbs/6973.jpg"
   }
  ],
- "completed_total": 1178,
+ "completed_total": 1179,
  "ongoing_total": 834
 }
