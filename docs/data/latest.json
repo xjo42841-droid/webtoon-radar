@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-26T06:33:34+08:00",
- "today": "2026-08-26",
+ "generated_at": "2026-08-27T11:01:56+08:00",
+ "today": "2026-08-27",
  "health": {
   "ok": false,
-  "complete_count": 1179,
-  "ongoing_count": 834,
+  "complete_count": 1182,
+  "ongoing_count": 832,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
   ],
-  "checked_at": "2026-08-26T06:33:34+08:00"
+  "checked_at": "2026-08-27T11:01:56+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -34,7 +34,7 @@
    "冬之森",
    "只想佔有你​​"
   ],
-  "days_left": 23,
+  "days_left": 22,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -188,14 +188,30 @@
  },
  "newly_completed": [
   {
-   "title": "鋼之鍊金術師",
-   "no": "6973",
+   "title": "特性廢角金戰士",
+   "no": "7268",
    "genre": "奇幻冒險",
-   "likes": "13,348",
-   "href": "https://www.webtoons.com/zh-hant/fantasy/full-metal-alchemist/list?title_no=6973",
-   "thumb": "thumbs/6973.jpg"
+   "likes": "55,808",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/ultimate-tutorial-warrior/list?title_no=7268",
+   "thumb": "thumbs/7268.jpg"
+  },
+  {
+   "title": "我親愛的人魚先生",
+   "no": "8057",
+   "genre": "愛情",
+   "likes": "22,999",
+   "href": "https://www.webtoons.com/zh-hant/romance/the-fish-i-loved/list?title_no=8057",
+   "thumb": "thumbs/8057.jpg"
+  },
+  {
+   "title": "分手在秋季",
+   "no": "8972",
+   "genre": "大人系",
+   "likes": "2,047",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/we-part-ways-in-autumn/list?title_no=8972",
+   "thumb": "thumbs/8972.jpg"
   }
  ],
- "completed_total": 1179,
- "ongoing_total": 834
+ "completed_total": 1182,
+ "ongoing_total": 832
 }
