@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-27T11:01:56+08:00",
- "today": "2026-08-27",
+ "generated_at": "2026-08-28T14:02:36+08:00",
+ "today": "2026-08-28",
  "health": {
   "ok": false,
-  "complete_count": 1182,
-  "ongoing_count": 832,
+  "complete_count": 1187,
+  "ongoing_count": 829,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
   ],
-  "checked_at": "2026-08-27T11:01:56+08:00"
+  "checked_at": "2026-08-28T14:02:36+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -34,7 +34,7 @@
    "冬之森",
    "只想佔有你​​"
   ],
-  "days_left": 22,
+  "days_left": 21,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -188,30 +188,46 @@
  },
  "newly_completed": [
   {
-   "title": "特性廢角金戰士",
-   "no": "7268",
-   "genre": "奇幻冒險",
-   "likes": "55,808",
-   "href": "https://www.webtoons.com/zh-hant/fantasy/ultimate-tutorial-warrior/list?title_no=7268",
-   "thumb": "thumbs/7268.jpg"
-  },
-  {
-   "title": "我親愛的人魚先生",
-   "no": "8057",
-   "genre": "愛情",
-   "likes": "22,999",
-   "href": "https://www.webtoons.com/zh-hant/romance/the-fish-i-loved/list?title_no=8057",
-   "thumb": "thumbs/8057.jpg"
-  },
-  {
-   "title": "分手在秋季",
-   "no": "8972",
+   "title": "女神們的故事：獻給達芙妮",
+   "no": "9342",
    "genre": "大人系",
-   "likes": "2,047",
-   "href": "https://www.webtoons.com/zh-hant/romance-m/we-part-ways-in-autumn/list?title_no=8972",
-   "thumb": "thumbs/8972.jpg"
+   "likes": "12,805",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/for-daphne/list?title_no=9342",
+   "thumb": "thumbs/9342.jpg"
+  },
+  {
+   "title": "公爵，請忍耐",
+   "no": "5641",
+   "genre": "歐式宮廷",
+   "likes": "159,293",
+   "href": "https://www.webtoons.com/zh-hant/western-palace/please-be-patient/list?title_no=5641",
+   "thumb": "thumbs/5641.jpg"
+  },
+  {
+   "title": "冬之微風",
+   "no": "9152",
+   "genre": "愛情",
+   "likes": "16,375",
+   "href": "https://www.webtoons.com/zh-hant/romance/winter-breeze/list?title_no=9152",
+   "thumb": "thumbs/9152.jpg"
+  },
+  {
+   "title": "靜謐雪夜裡的炙熱木屋",
+   "no": "8217",
+   "genre": "大人系",
+   "likes": "2,323",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/quiet-and-crazy-winter-cabin/list?title_no=8217",
+   "thumb": "thumbs/8217.jpg"
+  },
+  {
+   "title": "極惡世代",
+   "no": "7713",
+   "genre": "動作",
+   "likes": "10,680",
+   "href": "https://www.webtoons.com/zh-hant/action/the-worst-generation/list?title_no=7713",
+   "thumb": "thumbs/7713.jpg"
   }
  ],
- "completed_total": 1182,
- "ongoing_total": 832
+ "completed_total": 1187,
+ "ongoing_total": 829
 }
