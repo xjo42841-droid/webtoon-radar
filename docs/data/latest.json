@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-30T08:00:59+08:00",
- "today": "2026-08-30",
+ "generated_at": "2026-08-31T08:20:53+08:00",
+ "today": "2026-08-31",
  "health": {
   "ok": false,
   "complete_count": 1187,
-  "ongoing_count": 833,
+  "ongoing_count": 835,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
   ],
-  "checked_at": "2026-08-30T08:00:59+08:00"
+  "checked_at": "2026-08-31T08:20:53+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -34,7 +34,7 @@
    "冬之森",
    "只想佔有你​​"
   ],
-  "days_left": 19,
+  "days_left": 18,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -186,16 +186,7 @@
    }
   ]
  },
- "newly_completed": [
-  {
-   "title": "[清純短篇] 管家的新娘養成計畫",
-   "no": "9641",
-   "genre": "大人系",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/romance-m/the-brides-education-from-the-butler/list?title_no=9641",
-   "thumb": "thumbs/9641.jpg"
-  }
- ],
+ "newly_completed": [],
  "completed_total": 1187,
- "ongoing_total": 833
+ "ongoing_total": 835
 }
