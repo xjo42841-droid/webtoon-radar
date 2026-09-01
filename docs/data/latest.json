@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-08-31T08:20:53+08:00",
- "today": "2026-08-31",
+ "generated_at": "2026-09-01T09:10:20+08:00",
+ "today": "2026-09-01",
  "health": {
   "ok": false,
   "complete_count": 1187,
-  "ongoing_count": 835,
+  "ongoing_count": 837,
   "notice_found": true,
   "warnings": [
-   "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、只想佔有你​​"
+   "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、去見媽咪的路上​​​"
   ],
-  "checked_at": "2026-08-31T08:20:53+08:00"
+  "checked_at": "2026-09-01T09:10:20+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
-  "notice_title": "【重要通知】9月最新完結名單",
+  "notice_title": "【重要通知】9月最新完結名單(8/31更新)",
   "posted_date": "2026-08-19",
   "switch_date": "2026-09-18",
   "titles": [
@@ -32,9 +32,10 @@
    "撩人的姐姐",
    "九龍：裟洛卡",
    "冬之森",
-   "只想佔有你​​"
+   "只想佔有你",
+   "去見媽咪的路上​​​"
   ],
-  "days_left": 18,
+  "days_left": 17,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -181,12 +182,22 @@
     "thumb": "thumbs/726.jpg"
    },
    {
-    "title": "只想佔有你​​",
+    "title": "只想佔有你",
+    "no": "4685",
+    "genre": "LGBTQ+",
+    "likes": "94,061",
+    "href": "https://www.webtoons.com/zh-hant/bl-gl/phantasia/list?title_no=4685",
+    "weekday": "saturday",
+    "status": "ongoing",
+    "thumb": "thumbs/4685.png"
+   },
+   {
+    "title": "去見媽咪的路上​​​",
     "status": "unknown"
    }
   ]
  },
  "newly_completed": [],
  "completed_total": 1187,
- "ongoing_total": 835
+ "ongoing_total": 837
 }
