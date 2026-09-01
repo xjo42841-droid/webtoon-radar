@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-01T09:10:20+08:00",
- "today": "2026-09-01",
+ "generated_at": "2026-09-02T07:55:23+08:00",
+ "today": "2026-09-02",
  "health": {
   "ok": false,
   "complete_count": 1187,
-  "ongoing_count": 837,
+  "ongoing_count": 839,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、去見媽咪的路上​​​"
   ],
-  "checked_at": "2026-09-01T09:10:20+08:00"
+  "checked_at": "2026-09-02T07:55:23+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -35,7 +35,7 @@
    "只想佔有你",
    "去見媽咪的路上​​​"
   ],
-  "days_left": 17,
+  "days_left": 16,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -199,5 +199,5 @@
  },
  "newly_completed": [],
  "completed_total": 1187,
- "ongoing_total": 837
+ "ongoing_total": 839
 }
