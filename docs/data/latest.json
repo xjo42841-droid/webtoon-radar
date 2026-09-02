@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-02T07:55:23+08:00",
- "today": "2026-09-02",
+ "generated_at": "2026-09-03T07:57:13+08:00",
+ "today": "2026-09-03",
  "health": {
   "ok": false,
   "complete_count": 1187,
-  "ongoing_count": 839,
+  "ongoing_count": 840,
   "notice_found": true,
   "warnings": [
-   "公告有 2 部作品在站上對不到名稱:重生不良小教主 ​、去見媽咪的路上​​​"
+   "公告有 2 部作品在站上對不到名稱:末日獨尊：死靈法師​、緋色之戀 ​"
   ],
-  "checked_at": "2026-09-02T07:55:23+08:00"
+  "checked_at": "2026-09-03T07:57:13+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -22,20 +22,19 @@
    "白氏世家絕症公子",
    "冰影戰魂",
    "鄰家弟弟長大了",
-   "靠神級天賦無限成長",
-   "末日獨尊：死靈法師",
+   "末日獨尊：死靈法師​",
    "反派皇子識破我的真面目",
    "在魔法學院偽裝教師",
-   "重生不良小教主 ​",
-   "緋色之戀",
+   "重生不良小教主",
+   "緋色之戀 ​",
    "脫軌",
    "撩人的姐姐",
    "九龍：裟洛卡",
    "冬之森",
    "只想佔有你",
-   "去見媽咪的路上​​​"
+   "去見媽咪的路上"
   ],
-  "days_left": 16,
+  "days_left": 15,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
@@ -88,24 +87,8 @@
     "thumb": "thumbs/6542.jpg"
    },
    {
-    "title": "靠神級天賦無限成長",
-    "no": "5234",
-    "genre": "奇幻冒險",
-    "likes": "165,852",
-    "href": "https://www.webtoons.com/zh-hant/fantasy/boundless-necromancer/list?title_no=5234",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/5234.jpg"
-   },
-   {
-    "title": "末日獨尊：死靈法師",
-    "no": "4111",
-    "genre": "奇幻冒險",
-    "likes": "431,864",
-    "href": "https://www.webtoons.com/zh-hant/fantasy/the-lone-necromancer/list?title_no=4111",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/4111.png"
+    "title": "末日獨尊：死靈法師​",
+    "status": "unknown"
    },
    {
     "title": "反派皇子識破我的真面目",
@@ -128,18 +111,18 @@
     "thumb": "thumbs/4730.png"
    },
    {
-    "title": "重生不良小教主 ​",
-    "status": "unknown"
-   },
-   {
-    "title": "緋色之戀",
-    "no": "6613",
-    "genre": "愛情",
-    "likes": "12,792",
-    "href": "https://www.webtoons.com/zh-hant/romance/chasing-red/list?title_no=6613",
+    "title": "重生不良小教主",
+    "no": "3308",
+    "genre": "武俠",
+    "likes": "367,848",
+    "href": "https://www.webtoons.com/zh-hant/martial-arts/reincarnated-as-an-unruly-heir/list?title_no=3308",
     "weekday": null,
     "status": "completed_free",
-    "thumb": "thumbs/6613.png"
+    "thumb": "thumbs/3308.png"
+   },
+   {
+    "title": "緋色之戀 ​",
+    "status": "unknown"
    },
    {
     "title": "脫軌",
@@ -192,12 +175,18 @@
     "thumb": "thumbs/4685.png"
    },
    {
-    "title": "去見媽咪的路上​​​",
-    "status": "unknown"
+    "title": "去見媽咪的路上",
+    "no": "7711",
+    "genre": "奇幻冒險",
+    "likes": "324,983",
+    "href": "https://www.webtoons.com/zh-hant/fantasy/on-the-way-to-meet-mom/list?title_no=7711",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/7711.jpg"
    }
   ]
  },
  "newly_completed": [],
  "completed_total": 1187,
- "ongoing_total": 839
+ "ongoing_total": 840
 }
