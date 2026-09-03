@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-03T07:57:13+08:00",
- "today": "2026-09-03",
+ "generated_at": "2026-09-04T07:53:22+08:00",
+ "today": "2026-09-04",
  "health": {
   "ok": false,
-  "complete_count": 1187,
+  "complete_count": 1189,
   "ongoing_count": 840,
   "notice_found": true,
   "warnings": [
    "公告有 2 部作品在站上對不到名稱:末日獨尊：死靈法師​、緋色之戀 ​"
   ],
-  "checked_at": "2026-09-03T07:57:13+08:00"
+  "checked_at": "2026-09-04T07:53:22+08:00"
  },
  "upcoming": {
   "notice_no": 3743,
@@ -34,13 +34,13 @@
    "只想佔有你",
    "去見媽咪的路上"
   ],
-  "days_left": 15,
+  "days_left": 14,
   "items": [
    {
     "title": "Arrange: 我們的主打歌",
     "no": "8401",
     "genre": "LGBTQ+",
-    "likes": "1,664",
+    "likes": "1,736",
     "href": "https://www.webtoons.com/zh-hant/bl-gl/arrange/list?title_no=8401",
     "weekday": null,
     "status": "completed_free",
@@ -50,7 +50,7 @@
     "title": "KissCross：夢戀悄悄話",
     "no": "8978",
     "genre": "LGBTQ+",
-    "likes": "2,096",
+    "likes": "2,256",
     "href": "https://www.webtoons.com/zh-hant/bl-gl/kisscross/list?title_no=8978",
     "weekday": null,
     "status": "completed_free",
@@ -60,7 +60,7 @@
     "title": "白氏世家絕症公子",
     "no": "5891",
     "genre": "武俠",
-    "likes": "70,831",
+    "likes": "72,279",
     "href": "https://www.webtoons.com/zh-hant/martial-arts/the-baek-clans-sickly-young-master/list?title_no=5891",
     "weekday": null,
     "status": "completed_free",
@@ -70,7 +70,7 @@
     "title": "冰影戰魂",
     "no": "8226",
     "genre": "動作",
-    "likes": "4,955",
+    "likes": "5,244",
     "href": "https://www.webtoons.com/zh-hant/action/the-frostbound-warrior/list?title_no=8226",
     "weekday": null,
     "status": "completed_free",
@@ -80,7 +80,7 @@
     "title": "鄰家弟弟長大了",
     "no": "6542",
     "genre": "愛情",
-    "likes": "60,320",
+    "likes": "63,141",
     "href": "https://www.webtoons.com/zh-hant/romance/the-boy-next-door/list?title_no=6542",
     "weekday": null,
     "status": "completed_free",
@@ -94,7 +94,7 @@
     "title": "反派皇子識破我的真面目",
     "no": "4360",
     "genre": "歐式宮廷",
-    "likes": "168,183",
+    "likes": "174,018",
     "href": "https://www.webtoons.com/zh-hant/western-palace/caught-by-the-villain/list?title_no=4360",
     "weekday": null,
     "status": "completed_free",
@@ -104,7 +104,7 @@
     "title": "在魔法學院偽裝教師",
     "no": "4730",
     "genre": "奇幻冒險",
-    "likes": "417,494",
+    "likes": "425,817",
     "href": "https://www.webtoons.com/zh-hant/fantasy/academys-undercover-professor/list?title_no=4730",
     "weekday": null,
     "status": "completed_free",
@@ -114,7 +114,7 @@
     "title": "重生不良小教主",
     "no": "3308",
     "genre": "武俠",
-    "likes": "367,848",
+    "likes": "372,228",
     "href": "https://www.webtoons.com/zh-hant/martial-arts/reincarnated-as-an-unruly-heir/list?title_no=3308",
     "weekday": null,
     "status": "completed_free",
@@ -128,7 +128,7 @@
     "title": "脫軌",
     "no": "7277",
     "genre": "大人系",
-    "likes": "115,252",
+    "likes": "118,892",
     "href": "https://www.webtoons.com/zh-hant/romance-m/unraveled/list?title_no=7277",
     "weekday": "wednesday",
     "status": "ongoing",
@@ -138,7 +138,7 @@
     "title": "撩人的姐姐",
     "no": "8227",
     "genre": "大人系",
-    "likes": "17,076",
+    "likes": "18,399",
     "href": "https://www.webtoons.com/zh-hant/romance-m/my-spicy-ex-girlfriend/list?title_no=8227",
     "weekday": null,
     "status": "completed_free",
@@ -148,7 +148,7 @@
     "title": "九龍：裟洛卡",
     "no": "7377",
     "genre": "動作",
-    "likes": "13,728",
+    "likes": "13,986",
     "href": "https://www.webtoons.com/zh-hant/action/kowloon-copoka/list?title_no=7377",
     "weekday": null,
     "status": "completed_free",
@@ -158,7 +158,7 @@
     "title": "冬之森",
     "no": "726",
     "genre": "愛情",
-    "likes": "178,149",
+    "likes": "180,429",
     "href": "https://www.webtoons.com/zh-hant/romance/dongzhisen/list?title_no=726",
     "weekday": null,
     "status": "completed_free",
@@ -168,7 +168,7 @@
     "title": "只想佔有你",
     "no": "4685",
     "genre": "LGBTQ+",
-    "likes": "94,061",
+    "likes": "94,383",
     "href": "https://www.webtoons.com/zh-hant/bl-gl/phantasia/list?title_no=4685",
     "weekday": "saturday",
     "status": "ongoing",
@@ -178,7 +178,7 @@
     "title": "去見媽咪的路上",
     "no": "7711",
     "genre": "奇幻冒險",
-    "likes": "324,983",
+    "likes": "365,641",
     "href": "https://www.webtoons.com/zh-hant/fantasy/on-the-way-to-meet-mom/list?title_no=7711",
     "weekday": null,
     "status": "completed_free",
@@ -186,7 +186,24 @@
    }
   ]
  },
- "newly_completed": [],
- "completed_total": 1187,
+ "newly_completed": [
+  {
+   "title": "後院盛開的紫羅蘭",
+   "no": "6332",
+   "genre": "歐式宮廷",
+   "likes": "69,661",
+   "href": "https://www.webtoons.com/zh-hant/western-palace/violets-blooming-in-garden/list?title_no=6332",
+   "thumb": "thumbs/6332.png"
+  },
+  {
+   "title": "我的半神爸爸是癡情郎",
+   "no": "7161",
+   "genre": "歐式宮廷",
+   "likes": "12,946",
+   "href": "https://www.webtoons.com/zh-hant/western-palace/the-father-returns/list?title_no=7161",
+   "thumb": "thumbs/7161.jpg"
+  }
+ ],
+ "completed_total": 1189,
  "ongoing_total": 840
 }
