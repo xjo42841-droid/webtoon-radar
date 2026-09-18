@@ -1,217 +1,156 @@
 {
- "generated_at": "2026-09-17T08:15:49+08:00",
- "today": "2026-09-17",
+ "generated_at": "2026-09-18T08:01:19+08:00",
+ "today": "2026-09-18",
  "health": {
   "ok": false,
   "complete_count": 1199,
-  "ongoing_count": 852,
+  "ongoing_count": 853,
   "notice_found": true,
   "warnings": [
-   "公告有 2 部作品在站上對不到名稱:末日獨尊：死靈法師​、緋色之戀 ​"
+   "公告有 19 部作品在站上對不到名稱:親愛的老公 ，等我賺夠了，就離婚吧！​、魔眼復仇者——血命寄生​、殿下，命運由我來決定​、武俠女記者​、陰間使者:除靈武士​、[戲劇原著] 地獄公使2:復活者​、正義實現​、甜蜜誘惑​、現在單戀中​、右滑即地獄​、公爵，請忍耐​、惡女是懸絲木偶​、我親愛的人魚先生​、​ 極惡世代​、格鬥之王​、特性廢角金戰士​、百萬YouTuber是我的初戀​、我的秘書總想殺了我​、​ 外送夥伴即將抵達​​"
   ],
-  "checked_at": "2026-09-17T08:15:49+08:00"
+  "checked_at": "2026-09-18T08:01:19+08:00"
  },
  "upcoming": {
-  "notice_no": 3743,
-  "notice_title": "【重要通知】9月最新完結名單(8/31更新)",
-  "posted_date": "2026-08-19",
-  "switch_date": "2026-09-18",
+  "notice_no": 3765,
+  "notice_title": "【重要通知】10月最新完結名單",
+  "posted_date": "2026-09-18",
+  "switch_date": "2026-10-16",
   "titles": [
-   "Arrange: 我們的主打歌",
-   "KissCross：夢戀悄悄話",
-   "白氏世家絕症公子",
-   "冰影戰魂",
-   "鄰家弟弟長大了",
-   "末日獨尊：死靈法師​",
-   "反派皇子識破我的真面目",
-   "在魔法學院偽裝教師",
-   "重生不良小教主",
-   "緋色之戀 ​",
-   "脫軌",
-   "撩人的姐姐",
-   "九龍：裟洛卡",
-   "冬之森",
-   "只想佔有你",
-   "去見媽咪的路上"
+   "親愛的老公 ，等我賺夠了，就離婚吧！​",
+   "魔眼復仇者——血命寄生​",
+   "殿下，命運由我來決定​",
+   "離婚後夜",
+   "皇女即惡女",
+   "戀愛播放清單",
+   "武俠女記者​",
+   "陰間使者:除靈武士​",
+   "[戲劇原著] 地獄公使2:復活者​",
+   "正義實現​",
+   "甜蜜誘惑​",
+   "現在單戀中​",
+   "右滑即地獄​",
+   "公爵，請忍耐​",
+   "惡女是懸絲木偶​",
+   "我親愛的人魚先生​",
+   "​ 極惡世代​",
+   "格鬥之王​",
+   "特性廢角金戰士​",
+   "百萬YouTuber是我的初戀​",
+   "我的秘書總想殺了我​",
+   "​ 外送夥伴即將抵達​​"
   ],
-  "days_left": 1,
+  "days_left": 28,
   "items": [
    {
-    "title": "Arrange: 我們的主打歌",
-    "no": "8401",
-    "genre": "LGBTQ+",
-    "likes": "1,846",
-    "href": "https://www.webtoons.com/zh-hant/bl-gl/arrange/list?title_no=8401",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/8401.jpg"
-   },
-   {
-    "title": "KissCross：夢戀悄悄話",
-    "no": "8978",
-    "genre": "LGBTQ+",
-    "likes": "2,323",
-    "href": "https://www.webtoons.com/zh-hant/bl-gl/kisscross/list?title_no=8978",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/8978.jpg"
-   },
-   {
-    "title": "白氏世家絕症公子",
-    "no": "5891",
-    "genre": "武俠",
-    "likes": "73,158",
-    "href": "https://www.webtoons.com/zh-hant/martial-arts/the-baek-clans-sickly-young-master/list?title_no=5891",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/5891.jpg"
-   },
-   {
-    "title": "冰影戰魂",
-    "no": "8226",
-    "genre": "動作",
-    "likes": "5,619",
-    "href": "https://www.webtoons.com/zh-hant/action/the-frostbound-warrior/list?title_no=8226",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/8226.jpg"
-   },
-   {
-    "title": "鄰家弟弟長大了",
-    "no": "6542",
-    "genre": "愛情",
-    "likes": "65,440",
-    "href": "https://www.webtoons.com/zh-hant/romance/the-boy-next-door/list?title_no=6542",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/6542.jpg"
-   },
-   {
-    "title": "末日獨尊：死靈法師​",
+    "title": "親愛的老公 ，等我賺夠了，就離婚吧！​",
     "status": "unknown"
    },
    {
-    "title": "反派皇子識破我的真面目",
-    "no": "4360",
+    "title": "魔眼復仇者——血命寄生​",
+    "status": "unknown"
+   },
+   {
+    "title": "殿下，命運由我來決定​",
+    "status": "unknown"
+   },
+   {
+    "title": "離婚後夜",
+    "no": "7097",
+    "genre": "愛情",
+    "likes": "13,420",
+    "href": "https://www.webtoons.com/zh-hant/romance/the-night-after-the-divorce/list?title_no=7097",
+    "weekday": null,
+    "status": "completed_free",
+    "thumb": "thumbs/7097.jpg"
+   },
+   {
+    "title": "皇女即惡女",
+    "no": "4045",
     "genre": "歐式宮廷",
-    "likes": "179,122",
-    "href": "https://www.webtoons.com/zh-hant/western-palace/caught-by-the-villain/list?title_no=4360",
+    "likes": "16,251",
+    "href": "https://www.webtoons.com/zh-hant/western-palace/villainess-princess/list?title_no=4045",
     "weekday": null,
     "status": "completed_free",
-    "thumb": "thumbs/4360.png"
+    "thumb": "thumbs/4045.jpg"
    },
    {
-    "title": "在魔法學院偽裝教師",
-    "no": "4730",
-    "genre": "奇幻冒險",
-    "likes": "433,476",
-    "href": "https://www.webtoons.com/zh-hant/fantasy/academys-undercover-professor/list?title_no=4730",
+    "title": "戀愛播放清單",
+    "no": "4585",
+    "genre": "愛情",
+    "likes": "131,966",
+    "href": "https://www.webtoons.com/zh-hant/romance/secret-playlist/list?title_no=4585",
     "weekday": null,
     "status": "completed_free",
-    "thumb": "thumbs/4730.png"
+    "thumb": "thumbs/4585.jpg"
    },
    {
-    "title": "重生不良小教主",
-    "no": "3308",
-    "genre": "武俠",
-    "likes": "377,117",
-    "href": "https://www.webtoons.com/zh-hant/martial-arts/reincarnated-as-an-unruly-heir/list?title_no=3308",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/3308.png"
-   },
-   {
-    "title": "緋色之戀 ​",
+    "title": "武俠女記者​",
     "status": "unknown"
    },
    {
-    "title": "脫軌",
-    "no": "7277",
-    "genre": "大人系",
-    "likes": "121,027",
-    "href": "https://www.webtoons.com/zh-hant/romance-m/unraveled/list?title_no=7277",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/7277.png"
+    "title": "陰間使者:除靈武士​",
+    "status": "unknown"
    },
    {
-    "title": "撩人的姐姐",
-    "no": "8227",
-    "genre": "大人系",
-    "likes": "19,749",
-    "href": "https://www.webtoons.com/zh-hant/romance-m/my-spicy-ex-girlfriend/list?title_no=8227",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/8227.png"
+    "title": "[戲劇原著] 地獄公使2:復活者​",
+    "status": "unknown"
    },
    {
-    "title": "九龍：裟洛卡",
-    "no": "7377",
-    "genre": "動作",
-    "likes": "15,153",
-    "href": "https://www.webtoons.com/zh-hant/action/kowloon-copoka/list?title_no=7377",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/7377.png"
+    "title": "正義實現​",
+    "status": "unknown"
    },
    {
-    "title": "冬之森",
-    "no": "726",
-    "genre": "愛情",
-    "likes": "183,086",
-    "href": "https://www.webtoons.com/zh-hant/romance/dongzhisen/list?title_no=726",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/726.jpg"
+    "title": "甜蜜誘惑​",
+    "status": "unknown"
    },
    {
-    "title": "只想佔有你",
-    "no": "4685",
-    "genre": "LGBTQ+",
-    "likes": "94,941",
-    "href": "https://www.webtoons.com/zh-hant/bl-gl/phantasia/list?title_no=4685",
-    "weekday": "saturday",
-    "status": "ongoing",
-    "thumb": "thumbs/4685.png"
+    "title": "現在單戀中​",
+    "status": "unknown"
    },
    {
-    "title": "去見媽咪的路上",
-    "no": "7711",
-    "genre": "奇幻冒險",
-    "likes": "395,218",
-    "href": "https://www.webtoons.com/zh-hant/fantasy/on-the-way-to-meet-mom/list?title_no=7711",
-    "weekday": null,
-    "status": "completed_free",
-    "thumb": "thumbs/7711.jpg"
+    "title": "右滑即地獄​",
+    "status": "unknown"
+   },
+   {
+    "title": "公爵，請忍耐​",
+    "status": "unknown"
+   },
+   {
+    "title": "惡女是懸絲木偶​",
+    "status": "unknown"
+   },
+   {
+    "title": "我親愛的人魚先生​",
+    "status": "unknown"
+   },
+   {
+    "title": "​ 極惡世代​",
+    "status": "unknown"
+   },
+   {
+    "title": "格鬥之王​",
+    "status": "unknown"
+   },
+   {
+    "title": "特性廢角金戰士​",
+    "status": "unknown"
+   },
+   {
+    "title": "百萬YouTuber是我的初戀​",
+    "status": "unknown"
+   },
+   {
+    "title": "我的秘書總想殺了我​",
+    "status": "unknown"
+   },
+   {
+    "title": "​ 外送夥伴即將抵達​​",
+    "status": "unknown"
    }
   ]
  },
- "newly_completed": [
-  {
-   "title": "皇家婚禮(無刪減)",
-   "no": "7383",
-   "genre": "LGBTQ+",
-   "likes": "8,357",
-   "href": "https://www.webtoons.com/zh-hant/bl-gl/royal-wedding-full-length/list?title_no=7383",
-   "thumb": "thumbs/7383.jpg"
-  },
-  {
-   "title": "皇家婚禮",
-   "no": "7384",
-   "genre": "LGBTQ+",
-   "likes": "2,100",
-   "href": "https://www.webtoons.com/zh-hant/bl-gl/royal-wedding/list?title_no=7384",
-   "thumb": "thumbs/7384.jpg"
-  },
-  {
-   "title": "脫軌",
-   "no": "7277",
-   "genre": "大人系",
-   "likes": "121,027",
-   "href": "https://www.webtoons.com/zh-hant/romance-m/unraveled/list?title_no=7277",
-   "thumb": "thumbs/7277.png"
-  }
- ],
+ "newly_completed": [],
  "completed_total": 1199,
- "ongoing_total": 852
+ "ongoing_total": 853
 }
