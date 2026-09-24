@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-23T08:13:22+08:00",
- "today": "2026-09-23",
+ "generated_at": "2026-09-24T08:20:49+08:00",
+ "today": "2026-09-24",
  "health": {
   "ok": false,
   "complete_count": 1204,
-  "ongoing_count": 857,
+  "ongoing_count": 862,
   "notice_found": true,
   "warnings": [
    "公告有 18 部作品在站上對不到名稱:親愛的老公 ，等我賺夠了，就離婚吧！​、魔眼復仇者——血命寄生​、殿下，命運由我來決定​、武俠女記者​、陰間使者:除靈武士​、[戲劇原著] 地獄公使2:復活者​、正義實現​、甜蜜誘惑​、現在單戀中​、右滑即地獄​ ​、惡女是懸絲木偶​、我親愛的人魚先生​、​ 極惡世代​、格鬥之王​、特性廢角金戰士​、百萬YouTuber是我的初戀​、我的秘書總想殺了我​、​ 外送夥伴即將抵達​​"
   ],
-  "checked_at": "2026-09-23T08:13:22+08:00"
+  "checked_at": "2026-09-24T08:20:49+08:00"
  },
  "upcoming": {
   "notice_no": 3765,
@@ -39,7 +39,7 @@
    "我的秘書總想殺了我​",
    "​ 外送夥伴即將抵達​​"
   ],
-  "days_left": 23,
+  "days_left": 22,
   "items": [
    {
     "title": "親愛的老公 ，等我賺夠了，就離婚吧！​",
@@ -57,7 +57,7 @@
     "title": "離婚後夜",
     "no": "7097",
     "genre": "愛情",
-    "likes": "13,545",
+    "likes": "13,603",
     "href": "https://www.webtoons.com/zh-hant/romance/the-night-after-the-divorce/list?title_no=7097",
     "weekday": null,
     "status": "completed_free",
@@ -67,7 +67,7 @@
     "title": "皇女即惡女",
     "no": "4045",
     "genre": "歐式宮廷",
-    "likes": "16,269",
+    "likes": "16,283",
     "href": "https://www.webtoons.com/zh-hant/western-palace/villainess-princess/list?title_no=4045",
     "weekday": null,
     "status": "completed_free",
@@ -77,7 +77,7 @@
     "title": "戀愛播放清單",
     "no": "4585",
     "genre": "愛情",
-    "likes": "132,550",
+    "likes": "132,637",
     "href": "https://www.webtoons.com/zh-hant/romance/secret-playlist/list?title_no=4585",
     "weekday": null,
     "status": "completed_free",
@@ -145,16 +145,7 @@
    }
   ]
  },
- "newly_completed": [
-  {
-   "title": "史詩級領地設計師",
-   "no": "4354",
-   "genre": "奇幻冒險",
-   "likes": "166.4萬",
-   "href": "https://www.webtoons.com/zh-hant/fantasy/estatedeveloper/list?title_no=4354",
-   "thumb": "thumbs/4354.png"
-  }
- ],
+ "newly_completed": [],
  "completed_total": 1204,
- "ongoing_total": 857
+ "ongoing_total": 862
 }
