@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-29T09:42:46+08:00",
- "today": "2026-09-29",
+ "generated_at": "2026-09-30T09:10:52+08:00",
+ "today": "2026-09-30",
  "health": {
   "ok": false,
-  "complete_count": 1207,
+  "complete_count": 1208,
   "ongoing_count": 868,
   "notice_found": true,
   "warnings": [
    "公告有 18 部作品在站上對不到名稱:親愛的老公 ，等我賺夠了，就離婚吧！​、魔眼復仇者——血命寄生​、殿下，命運由我來決定​、武俠女記者​、陰間使者:除靈武士​、[戲劇原著] 地獄公使2:復活者​、正義實現​、甜蜜誘惑​、現在單戀中​、右滑即地獄​ ​、惡女是懸絲木偶​、我親愛的人魚先生​、​ 極惡世代​、格鬥之王​、特性廢角金戰士​、百萬YouTuber是我的初戀​、我的秘書總想殺了我​、​ 外送夥伴即將抵達​​"
   ],
-  "checked_at": "2026-09-29T09:42:46+08:00"
+  "checked_at": "2026-09-30T09:10:52+08:00"
  },
  "upcoming": {
   "notice_no": 3765,
@@ -39,7 +39,7 @@
    "我的秘書總想殺了我​",
    "​ 外送夥伴即將抵達​​"
   ],
-  "days_left": 17,
+  "days_left": 16,
   "items": [
    {
     "title": "親愛的老公 ，等我賺夠了，就離婚吧！​",
@@ -67,7 +67,7 @@
     "title": "皇女即惡女",
     "no": "4045",
     "genre": "歐式宮廷",
-    "likes": "16,333",
+    "likes": "16,383",
     "href": "https://www.webtoons.com/zh-hant/western-palace/villainess-princess/list?title_no=4045",
     "weekday": null,
     "status": "completed_free",
@@ -77,7 +77,7 @@
     "title": "戀愛播放清單",
     "no": "4585",
     "genre": "愛情",
-    "likes": "133,651",
+    "likes": "133,760",
     "href": "https://www.webtoons.com/zh-hant/romance/secret-playlist/list?title_no=4585",
     "weekday": null,
     "status": "completed_free",
@@ -145,7 +145,16 @@
    }
   ]
  },
- "newly_completed": [],
- "completed_total": 1207,
+ "newly_completed": [
+  {
+   "title": "高中生王后",
+   "no": "6977",
+   "genre": "動作",
+   "likes": "55,850",
+   "href": "https://www.webtoons.com/zh-hant/action/highschool-queen/list?title_no=6977",
+   "thumb": "thumbs/6977.jpg"
+  }
+ ],
+ "completed_total": 1208,
  "ongoing_total": 868
 }
