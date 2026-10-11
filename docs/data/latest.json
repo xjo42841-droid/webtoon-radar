@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-10T09:37:03+08:00",
- "today": "2026-10-10",
+ "generated_at": "2026-10-11T08:46:12+08:00",
+ "today": "2026-10-11",
  "health": {
   "ok": false,
   "complete_count": 1222,
-  "ongoing_count": 879,
+  "ongoing_count": 880,
   "notice_found": true,
   "warnings": [
    "公告有 18 部作品在站上對不到名稱:親愛的老公 ，等我賺夠了，就離婚吧！​、魔眼復仇者——血命寄生​、殿下，命運由我來決定​、武俠女記者​、陰間使者:除靈武士​、[戲劇原著] 地獄公使2:復活者​、正義實現​、甜蜜誘惑​、現在單戀中​、右滑即地獄​ ​、惡女是懸絲木偶​、我親愛的人魚先生​、​ 極惡世代​、格鬥之王​、特性廢角金戰士​、百萬YouTuber是我的初戀​、我的秘書總想殺了我​、​ 外送夥伴即將抵達​​"
   ],
-  "checked_at": "2026-10-10T09:37:03+08:00"
+  "checked_at": "2026-10-11T08:46:12+08:00"
  },
  "upcoming": {
   "notice_no": 3765,
@@ -39,7 +39,7 @@
    "我的秘書總想殺了我​",
    "​ 外送夥伴即將抵達​​"
   ],
-  "days_left": 6,
+  "days_left": 5,
   "items": [
    {
     "title": "親愛的老公 ，等我賺夠了，就離婚吧！​",
@@ -57,7 +57,7 @@
     "title": "離婚後夜",
     "no": "7097",
     "genre": "愛情",
-    "likes": "13,839",
+    "likes": "13,849",
     "href": "https://www.webtoons.com/zh-hant/romance/the-night-after-the-divorce/list?title_no=7097",
     "weekday": null,
     "status": "completed_free",
@@ -67,7 +67,7 @@
     "title": "皇女即惡女",
     "no": "4045",
     "genre": "歐式宮廷",
-    "likes": "16,487",
+    "likes": "16,489",
     "href": "https://www.webtoons.com/zh-hant/western-palace/villainess-princess/list?title_no=4045",
     "weekday": null,
     "status": "completed_free",
@@ -77,7 +77,7 @@
     "title": "戀愛播放清單",
     "no": "4585",
     "genre": "愛情",
-    "likes": "134,863",
+    "likes": "134,905",
     "href": "https://www.webtoons.com/zh-hant/romance/secret-playlist/list?title_no=4585",
     "weekday": null,
     "status": "completed_free",
@@ -145,56 +145,7 @@
    }
   ]
  },
- "newly_completed": [
-  {
-   "title": "夫妻，可以做到哪一步？",
-   "no": "7722",
-   "genre": "愛情",
-   "likes": "25,650",
-   "href": "https://www.webtoons.com/zh-hant/romance/how-far-can-we-go/list?title_no=7722",
-   "thumb": "thumbs/7722.jpg"
-  },
-  {
-   "title": "有你的夏天",
-   "no": "8599",
-   "genre": "大人系",
-   "likes": "3,660",
-   "href": "https://www.webtoons.com/zh-hant/romance-m/a-summer-with-you/list?title_no=8599",
-   "thumb": "thumbs/8599.jpg"
-  },
-  {
-   "title": "黑暗侵襲",
-   "no": "7094",
-   "genre": "奇幻冒險",
-   "likes": "25,977",
-   "href": "https://www.webtoons.com/zh-hant/fantasy/darkinvesion/list?title_no=7094",
-   "thumb": "thumbs/7094.png"
-  },
-  {
-   "title": "死亡倒數3個月的綠帽夫",
-   "no": "6975",
-   "genre": "愛情",
-   "likes": "22,094",
-   "href": "https://www.webtoons.com/zh-hant/romance/3months-limit/list?title_no=6975",
-   "thumb": "thumbs/6975.png"
-  },
-  {
-   "title": "百萬YouTuber是我的初戀",
-   "no": "6871",
-   "genre": "愛情",
-   "likes": "70,634",
-   "href": "https://www.webtoons.com/zh-hant/romance/megalover/list?title_no=6871",
-   "thumb": "thumbs/6871.jpg"
-  },
-  {
-   "title": "對面娜莉",
-   "no": "7758",
-   "genre": "大人系",
-   "likes": "33,070",
-   "href": "https://www.webtoons.com/zh-hant/romance-m/front-house-nari/list?title_no=7758",
-   "thumb": "thumbs/7758.png"
-  }
- ],
+ "newly_completed": [],
  "completed_total": 1222,
- "ongoing_total": 879
+ "ongoing_total": 880
 }
