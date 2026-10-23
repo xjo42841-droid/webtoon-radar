@@ -1,18 +1,27 @@
 {
- "generated_at": "2026-10-22T08:32:40+08:00",
- "today": "2026-10-22",
+ "generated_at": "2026-10-23T08:29:37+08:00",
+ "today": "2026-10-23",
  "health": {
   "ok": false,
-  "complete_count": 1239,
-  "ongoing_count": 883,
+  "complete_count": 1240,
+  "ongoing_count": 884,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-10-22T08:32:40+08:00"
+  "checked_at": "2026-10-23T08:29:37+08:00"
  },
  "upcoming": null,
- "newly_completed": [],
- "completed_total": 1239,
- "ongoing_total": 883
+ "newly_completed": [
+  {
+   "title": "唯一的希望",
+   "no": "5081",
+   "genre": "愛情",
+   "likes": "244,423",
+   "href": "https://www.webtoons.com/zh-hant/romance/only-hope/list?title_no=5081",
+   "thumb": "thumbs/5081.jpg"
+  }
+ ],
+ "completed_total": 1240,
+ "ongoing_total": 884
 }
