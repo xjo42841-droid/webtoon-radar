@@ -1,27 +1,35 @@
 {
- "generated_at": "2026-10-23T08:29:37+08:00",
- "today": "2026-10-23",
+ "generated_at": "2026-10-24T08:25:08+08:00",
+ "today": "2026-10-24",
  "health": {
   "ok": false,
-  "complete_count": 1240,
+  "complete_count": 1242,
   "ongoing_count": 884,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-10-23T08:29:37+08:00"
+  "checked_at": "2026-10-24T08:25:08+08:00"
  },
  "upcoming": null,
  "newly_completed": [
   {
-   "title": "唯一的希望",
-   "no": "5081",
-   "genre": "愛情",
-   "likes": "244,423",
-   "href": "https://www.webtoons.com/zh-hant/romance/only-hope/list?title_no=5081",
-   "thumb": "thumbs/5081.jpg"
+   "title": "擁有你和你",
+   "no": "6519",
+   "genre": "大人系",
+   "likes": "4,518",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/i-want-it/list?title_no=6519",
+   "thumb": "thumbs/6519.jpg"
+  },
+  {
+   "title": "雙向監禁",
+   "no": "8983",
+   "genre": "大人系",
+   "likes": "2,487",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/happily-trapped-after/list?title_no=8983",
+   "thumb": "thumbs/8983.png"
   }
  ],
- "completed_total": 1240,
+ "completed_total": 1242,
  "ongoing_total": 884
 }
