@@ -1,18 +1,43 @@
 {
- "generated_at": "2026-10-26T08:01:07+08:00",
- "today": "2026-10-26",
+ "generated_at": "2026-10-27T09:20:36+08:00",
+ "today": "2026-10-27",
  "health": {
   "ok": false,
-  "complete_count": 1242,
-  "ongoing_count": 887,
+  "complete_count": 1245,
+  "ongoing_count": 885,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-10-26T08:01:07+08:00"
+  "checked_at": "2026-10-27T09:20:36+08:00"
  },
  "upcoming": null,
- "newly_completed": [],
- "completed_total": 1242,
- "ongoing_total": 887
+ "newly_completed": [
+  {
+   "title": "致我丈夫的情婦",
+   "no": "6252",
+   "genre": "歐式宮廷",
+   "likes": "117,288",
+   "href": "https://www.webtoons.com/zh-hant/western-palace/to-my-husbands-mistress/list?title_no=6252",
+   "thumb": "thumbs/6252.jpg"
+  },
+  {
+   "title": "心魔獵人",
+   "no": "8716",
+   "genre": "驚悚",
+   "likes": "30,521",
+   "href": "https://www.webtoons.com/zh-hant/thriller/everyone-loves-her/list?title_no=8716",
+   "thumb": "thumbs/8716.jpg"
+  },
+  {
+   "title": "拳擊天才魔法師",
+   "no": "8220",
+   "genre": "奇幻冒險",
+   "likes": "17,223",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/the-fistfighting-genius-mage/list?title_no=8220",
+   "thumb": "thumbs/8220.jpg"
+  }
+ ],
+ "completed_total": 1245,
+ "ongoing_total": 885
 }
