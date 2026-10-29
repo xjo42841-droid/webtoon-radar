@@ -1,18 +1,43 @@
 {
- "generated_at": "2026-10-28T09:04:52+08:00",
- "today": "2026-10-28",
+ "generated_at": "2026-10-29T09:40:18+08:00",
+ "today": "2026-10-29",
  "health": {
   "ok": false,
-  "complete_count": 1245,
-  "ongoing_count": 887,
+  "complete_count": 1248,
+  "ongoing_count": 897,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-10-28T09:04:52+08:00"
+  "checked_at": "2026-10-29T09:40:18+08:00"
  },
  "upcoming": null,
- "newly_completed": [],
- "completed_total": 1245,
- "ongoing_total": 887
+ "newly_completed": [
+  {
+   "title": "無業宅女吳夜",
+   "no": "6341",
+   "genre": "劇情",
+   "likes": "264,192",
+   "href": "https://www.webtoons.com/zh-hant/drama/unemployed-woman/list?title_no=6341",
+   "thumb": "thumbs/6341.jpg"
+  },
+  {
+   "title": "甜蜜試用包",
+   "no": "10977",
+   "genre": "大人系",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/tasty-tester/list?title_no=10977",
+   "thumb": "thumbs/10977.jpg"
+  },
+  {
+   "title": "反轉黑歷史",
+   "no": "8231",
+   "genre": "愛情",
+   "likes": "23,326",
+   "href": "https://www.webtoons.com/zh-hant/romance/return-to-my-dark-past/list?title_no=8231",
+   "thumb": "thumbs/8231.jpg"
+  }
+ ],
+ "completed_total": 1248,
+ "ongoing_total": 897
 }
