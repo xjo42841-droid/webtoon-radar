@@ -1,18 +1,35 @@
 {
- "generated_at": "2026-11-05T10:08:18+08:00",
- "today": "2026-11-05",
+ "generated_at": "2026-11-06T10:08:27+08:00",
+ "today": "2026-11-06",
  "health": {
   "ok": false,
-  "complete_count": 1249,
+  "complete_count": 1251,
   "ongoing_count": 908,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-11-05T10:08:18+08:00"
+  "checked_at": "2026-11-06T10:08:27+08:00"
  },
  "upcoming": null,
- "newly_completed": [],
- "completed_total": 1249,
+ "newly_completed": [
+  {
+   "title": "四川唐門的劍神少主",
+   "no": "6584",
+   "genre": "武俠",
+   "likes": "70,614",
+   "href": "https://www.webtoons.com/zh-hant/martial-arts/becoming-the-swordmaster-of-the-sichuan-tang-clan/list?title_no=6584",
+   "thumb": "thumbs/6584.png"
+  },
+  {
+   "title": "侍女不再渴望他",
+   "no": "8361",
+   "genre": "歐式宮廷",
+   "likes": "17,747",
+   "href": "https://www.webtoons.com/zh-hant/western-palace/the-maid-no-longer-desires-him/list?title_no=8361",
+   "thumb": "thumbs/8361.jpg"
+  }
+ ],
+ "completed_total": 1251,
  "ongoing_total": 908
 }
