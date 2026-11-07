@@ -1,35 +1,43 @@
 {
- "generated_at": "2026-11-06T10:08:27+08:00",
- "today": "2026-11-06",
+ "generated_at": "2026-11-07T09:44:26+08:00",
+ "today": "2026-11-07",
  "health": {
   "ok": false,
-  "complete_count": 1251,
-  "ongoing_count": 908,
+  "complete_count": 1254,
+  "ongoing_count": 906,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-11-06T10:08:27+08:00"
+  "checked_at": "2026-11-07T09:44:26+08:00"
  },
  "upcoming": null,
  "newly_completed": [
   {
-   "title": "四川唐門的劍神少主",
-   "no": "6584",
-   "genre": "武俠",
-   "likes": "70,614",
-   "href": "https://www.webtoons.com/zh-hant/martial-arts/becoming-the-swordmaster-of-the-sichuan-tang-clan/list?title_no=6584",
-   "thumb": "thumbs/6584.png"
+   "title": "落英亞里亞",
+   "no": "10721",
+   "genre": "大人系",
+   "likes": "6,644",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/ariya-of-fallen-petals/list?title_no=10721",
+   "thumb": "thumbs/10721.png"
   },
   {
-   "title": "侍女不再渴望他",
-   "no": "8361",
+   "title": "暗殺者家族的寶貝養女",
+   "no": "6419",
    "genre": "歐式宮廷",
-   "likes": "17,747",
-   "href": "https://www.webtoons.com/zh-hant/western-palace/the-maid-no-longer-desires-him/list?title_no=8361",
-   "thumb": "thumbs/8361.jpg"
+   "likes": "132,340",
+   "href": "https://www.webtoons.com/zh-hant/western-palace/adopted-by-a-murderous-duke-family/list?title_no=6419",
+   "thumb": "thumbs/6419.jpg"
+  },
+  {
+   "title": "重生吧!貧民窟魔導士!",
+   "no": "9149",
+   "genre": "奇幻冒險",
+   "likes": "19,329",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/the-back-alley-mages-second-life/list?title_no=9149",
+   "thumb": "thumbs/9149.jpg"
   }
  ],
- "completed_total": 1251,
- "ongoing_total": 908
+ "completed_total": 1254,
+ "ongoing_total": 906
 }
