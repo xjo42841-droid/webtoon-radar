@@ -1,43 +1,18 @@
 {
- "generated_at": "2026-11-07T09:44:26+08:00",
- "today": "2026-11-07",
+ "generated_at": "2026-11-08T09:13:29+08:00",
+ "today": "2026-11-08",
  "health": {
   "ok": false,
   "complete_count": 1254,
-  "ongoing_count": 906,
+  "ongoing_count": 907,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-11-07T09:44:26+08:00"
+  "checked_at": "2026-11-08T09:13:29+08:00"
  },
  "upcoming": null,
- "newly_completed": [
-  {
-   "title": "落英亞里亞",
-   "no": "10721",
-   "genre": "大人系",
-   "likes": "6,644",
-   "href": "https://www.webtoons.com/zh-hant/romance-m/ariya-of-fallen-petals/list?title_no=10721",
-   "thumb": "thumbs/10721.png"
-  },
-  {
-   "title": "暗殺者家族的寶貝養女",
-   "no": "6419",
-   "genre": "歐式宮廷",
-   "likes": "132,340",
-   "href": "https://www.webtoons.com/zh-hant/western-palace/adopted-by-a-murderous-duke-family/list?title_no=6419",
-   "thumb": "thumbs/6419.jpg"
-  },
-  {
-   "title": "重生吧!貧民窟魔導士!",
-   "no": "9149",
-   "genre": "奇幻冒險",
-   "likes": "19,329",
-   "href": "https://www.webtoons.com/zh-hant/fantasy/the-back-alley-mages-second-life/list?title_no=9149",
-   "thumb": "thumbs/9149.jpg"
-  }
- ],
+ "newly_completed": [],
  "completed_total": 1254,
- "ongoing_total": 906
+ "ongoing_total": 907
 }
