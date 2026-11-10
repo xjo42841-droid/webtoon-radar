@@ -1,18 +1,27 @@
 {
- "generated_at": "2026-11-09T09:33:54+08:00",
- "today": "2026-11-09",
+ "generated_at": "2026-11-10T12:00:13+08:00",
+ "today": "2026-11-10",
  "health": {
   "ok": false,
-  "complete_count": 1254,
-  "ongoing_count": 910,
+  "complete_count": 1255,
+  "ongoing_count": 912,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-11-09T09:33:54+08:00"
+  "checked_at": "2026-11-10T12:00:13+08:00"
  },
  "upcoming": null,
- "newly_completed": [],
- "completed_total": 1254,
- "ongoing_total": 910
+ "newly_completed": [
+  {
+   "title": "[身分差短篇] 偷心小姐別想逃",
+   "no": "11258",
+   "genre": "大人系",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/if-you-run-away-with-the-dukes-treasure/list?title_no=11258",
+   "thumb": "thumbs/11258.jpg"
+  }
+ ],
+ "completed_total": 1255,
+ "ongoing_total": 912
 }
