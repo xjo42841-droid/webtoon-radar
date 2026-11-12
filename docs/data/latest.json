@@ -1,18 +1,35 @@
 {
- "generated_at": "2026-11-11T09:47:36+08:00",
- "today": "2026-11-11",
+ "generated_at": "2026-11-12T10:47:17+08:00",
+ "today": "2026-11-12",
  "health": {
   "ok": false,
-  "complete_count": 1255,
-  "ongoing_count": 913,
+  "complete_count": 1256,
+  "ongoing_count": 914,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-11-11T09:47:36+08:00"
+  "checked_at": "2026-11-12T10:47:17+08:00"
  },
  "upcoming": null,
- "newly_completed": [],
- "completed_total": 1255,
- "ongoing_total": 913
+ "newly_completed": [
+  {
+   "title": "超乎常理的血統天才",
+   "no": "4932",
+   "genre": "奇幻冒險",
+   "likes": "165,778",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/the-perfect-hybrid/list?title_no=4932",
+   "thumb": "thumbs/4932.jpg"
+  },
+  {
+   "title": "摯友戀愛日誌",
+   "no": "11250",
+   "genre": "大人系",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/best-friends-dating-log/list?title_no=11250",
+   "thumb": "thumbs/11250.jpg"
+  }
+ ],
+ "completed_total": 1256,
+ "ongoing_total": 914
 }
