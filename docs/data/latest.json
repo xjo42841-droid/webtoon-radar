@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-11-14T10:09:27+08:00",
- "today": "2026-11-14",
+ "generated_at": "2026-11-15T09:40:48+08:00",
+ "today": "2026-11-15",
  "health": {
   "ok": false,
-  "complete_count": 1257,
-  "ongoing_count": 915,
+  "complete_count": 1258,
+  "ongoing_count": 916,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-11-14T10:09:27+08:00"
+  "checked_at": "2026-11-15T09:40:48+08:00"
  },
  "upcoming": null,
  "newly_completed": [
   {
-   "title": "彷彿愛從不存在",
-   "no": "7731",
+   "title": "交纏",
+   "no": "7841",
    "genre": "愛情",
-   "likes": "17,896",
-   "href": "https://www.webtoons.com/zh-hant/romance/as-if-love-doesnt-exist/list?title_no=7731",
-   "thumb": "thumbs/7731.jpg"
+   "likes": "7,980",
+   "href": "https://www.webtoons.com/zh-hant/romance/intertwined/list?title_no=7841",
+   "thumb": "thumbs/7841.jpg"
   }
  ],
- "completed_total": 1257,
- "ongoing_total": 915
+ "completed_total": 1258,
+ "ongoing_total": 916
 }
