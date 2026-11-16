@@ -1,27 +1,18 @@
 {
- "generated_at": "2026-11-15T09:40:48+08:00",
- "today": "2026-11-15",
+ "generated_at": "2026-11-16T09:44:29+08:00",
+ "today": "2026-11-16",
  "health": {
   "ok": false,
   "complete_count": 1258,
-  "ongoing_count": 916,
+  "ongoing_count": 918,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-11-15T09:40:48+08:00"
+  "checked_at": "2026-11-16T09:44:29+08:00"
  },
  "upcoming": null,
- "newly_completed": [
-  {
-   "title": "交纏",
-   "no": "7841",
-   "genre": "愛情",
-   "likes": "7,980",
-   "href": "https://www.webtoons.com/zh-hant/romance/intertwined/list?title_no=7841",
-   "thumb": "thumbs/7841.jpg"
-  }
- ],
+ "newly_completed": [],
  "completed_total": 1258,
- "ongoing_total": 916
+ "ongoing_total": 918
 }
