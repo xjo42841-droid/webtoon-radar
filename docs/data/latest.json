@@ -1,18 +1,51 @@
 {
- "generated_at": "2026-11-16T09:44:29+08:00",
- "today": "2026-11-16",
+ "generated_at": "2026-11-17T12:23:35+08:00",
+ "today": "2026-11-17",
  "health": {
   "ok": false,
-  "complete_count": 1258,
-  "ongoing_count": 918,
+  "complete_count": 1262,
+  "ongoing_count": 915,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-11-16T09:44:29+08:00"
+  "checked_at": "2026-11-17T12:23:35+08:00"
  },
  "upcoming": null,
- "newly_completed": [],
- "completed_total": 1258,
- "ongoing_total": 918
+ "newly_completed": [
+  {
+   "title": "[身分差短篇] 聖女退位大作戰",
+   "no": "11259",
+   "genre": "大人系",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/for-my-dismissal/list?title_no=11259",
+   "thumb": "thumbs/11259.jpg"
+  },
+  {
+   "title": "我不是那種人才",
+   "no": "5145",
+   "genre": "奇幻冒險",
+   "likes": "318,505",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/not-that-kind-of-talent/list?title_no=5145",
+   "thumb": "thumbs/5145.jpg"
+  },
+  {
+   "title": "洙熙0",
+   "no": "3589",
+   "genre": "劇情",
+   "likes": "215,991",
+   "href": "https://www.webtoons.com/zh-hant/drama/zhuxi0/list?title_no=3589",
+   "thumb": "thumbs/3589.jpg"
+  },
+  {
+   "title": "抓住傲慢公爵的項圈",
+   "no": "8726",
+   "genre": "大人系",
+   "likes": "1,328",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/taming-the-arrogant-grand-duke/list?title_no=8726",
+   "thumb": "thumbs/8726.jpg"
+  }
+ ],
+ "completed_total": 1262,
+ "ongoing_total": 915
 }
