@@ -1,123 +1,27 @@
 {
- "generated_at": "2026-11-18T11:32:03+08:00",
- "today": "2026-11-18",
+ "generated_at": "2026-11-19T11:03:47+08:00",
+ "today": "2026-11-19",
  "health": {
   "ok": false,
-  "complete_count": 1275,
+  "complete_count": 1276,
   "ongoing_count": 904,
   "notice_found": false,
   "warnings": [
    "公告 3779 解析不到作品清單"
   ],
-  "checked_at": "2026-11-18T11:32:03+08:00"
+  "checked_at": "2026-11-19T11:03:47+08:00"
  },
  "upcoming": null,
  "newly_completed": [
   {
-   "title": "烏龍派出所",
-   "no": "11183",
-   "genre": "搞笑",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/comedy/kochikame/list?title_no=11183",
-   "thumb": "thumbs/11183.jpg"
-  },
-  {
-   "title": "死神",
-   "no": "11175",
-   "genre": "少年",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/shonen/bleach/list?title_no=11175",
-   "thumb": "thumbs/11175.jpg"
-  },
-  {
-   "title": "家庭教師HITMAN REBORN!",
-   "no": "11179",
-   "genre": "少年",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/shonen/katekyohitmanreborn/list?title_no=11179",
-   "thumb": "thumbs/11179.jpg"
-  },
-  {
-   "title": "排球少年",
-   "no": "11191",
-   "genre": "校園",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/school/haikyu/list?title_no=11191",
-   "thumb": "thumbs/11191.jpg"
-  },
-  {
-   "title": "咒術迴戰",
-   "no": "10568",
-   "genre": "動作",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/action/jujutsukaisen/list?title_no=10568",
-   "thumb": "thumbs/10568.jpg"
-  },
-  {
-   "title": "救贖：唯一的永遠",
-   "no": "9141",
-   "genre": "LGBTQ+",
-   "likes": "16,798",
-   "href": "https://www.webtoons.com/zh-hant/bl-gl/redeem/list?title_no=9141",
-   "thumb": "thumbs/9141.jpg"
-  },
-  {
-   "title": "戀愛情結",
-   "no": "11190",
-   "genre": "愛情",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/romance/lovecom/list?title_no=11190",
-   "thumb": "thumbs/11190.jpg"
-  },
-  {
-   "title": "爆漫王。",
-   "no": "11188",
-   "genre": "劇情",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/drama/bakuman/list?title_no=11188",
-   "thumb": "thumbs/11188.jpg"
-  },
-  {
-   "title": "我的英雄學院",
-   "no": "10577",
-   "genre": "動作",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/action/bokunoheroacademia/list?title_no=10577",
-   "thumb": "thumbs/10577.jpg"
-  },
-  {
-   "title": "閃爍的青春",
-   "no": "10575",
-   "genre": "愛情",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/romance/aoharide/list?title_no=10575",
-   "thumb": "thumbs/10575.jpg"
-  },
-  {
-   "title": "夏日時光",
-   "no": "10585",
-   "genre": "穿越/轉生",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/time-slip/summertimerender/list?title_no=10585",
-   "thumb": "thumbs/10585.jpg"
-  },
-  {
-   "title": "約定的夢幻島",
-   "no": "11174",
-   "genre": "驚悚",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/thriller/yakusokunoneverland/list?title_no=11174",
-   "thumb": "thumbs/11174.jpg"
-  },
-  {
-   "title": "Dr.STONE 新石紀",
-   "no": "10573",
-   "genre": "少年",
-   "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/shonen/drstone/list?title_no=10573",
-   "thumb": "thumbs/10573.jpg"
+   "title": "Lv.999 哥布林",
+   "no": "8594",
+   "genre": "奇幻冒險",
+   "likes": "37,344",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/level-999-goblin/list?title_no=8594",
+   "thumb": "thumbs/8594.jpg"
   }
  ],
- "completed_total": 1275,
+ "completed_total": 1276,
  "ongoing_total": 904
 }
