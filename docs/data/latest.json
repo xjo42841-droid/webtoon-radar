@@ -1,27 +1,18 @@
 {
- "generated_at": "2026-11-19T11:03:47+08:00",
- "today": "2026-11-19",
+ "generated_at": "2026-11-20T10:55:27+08:00",
+ "today": "2026-11-20",
  "health": {
   "ok": false,
-  "complete_count": 1276,
-  "ongoing_count": 904,
+  "complete_count": 1273,
+  "ongoing_count": 908,
   "notice_found": false,
   "warnings": [
-   "公告 3779 解析不到作品清單"
+   "公告 3799 解析不到作品清單"
   ],
-  "checked_at": "2026-11-19T11:03:47+08:00"
+  "checked_at": "2026-11-20T10:55:27+08:00"
  },
  "upcoming": null,
- "newly_completed": [
-  {
-   "title": "Lv.999 哥布林",
-   "no": "8594",
-   "genre": "奇幻冒險",
-   "likes": "37,344",
-   "href": "https://www.webtoons.com/zh-hant/fantasy/level-999-goblin/list?title_no=8594",
-   "thumb": "thumbs/8594.jpg"
-  }
- ],
- "completed_total": 1276,
- "ongoing_total": 904
+ "newly_completed": [],
+ "completed_total": 1273,
+ "ongoing_total": 908
 }
