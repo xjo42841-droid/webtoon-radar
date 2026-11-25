@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T13:49:39+08:00",
- "today": "2026-11-24",
+ "generated_at": "2026-11-25T12:50:02+08:00",
+ "today": "2026-11-25",
  "health": {
   "ok": false,
   "complete_count": 1273,
@@ -9,7 +9,7 @@
   "warnings": [
    "公告 3799 解析不到作品清單"
   ],
-  "checked_at": "2026-11-24T13:49:39+08:00"
+  "checked_at": "2026-11-25T12:50:02+08:00"
  },
  "upcoming": null,
  "newly_completed": [],
