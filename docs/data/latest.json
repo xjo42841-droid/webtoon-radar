@@ -1,18 +1,59 @@
 {
- "generated_at": "2026-11-25T12:50:02+08:00",
- "today": "2026-11-25",
+ "generated_at": "2026-11-26T12:02:49+08:00",
+ "today": "2026-11-26",
  "health": {
   "ok": false,
-  "complete_count": 1273,
-  "ongoing_count": 914,
+  "complete_count": 1278,
+  "ongoing_count": 919,
   "notice_found": false,
   "warnings": [
    "公告 3799 解析不到作品清單"
   ],
-  "checked_at": "2026-11-25T12:50:02+08:00"
+  "checked_at": "2026-11-26T12:02:49+08:00"
  },
  "upcoming": null,
- "newly_completed": [],
- "completed_total": 1273,
- "ongoing_total": 914
+ "newly_completed": [
+  {
+   "title": "鬼滅之刃",
+   "no": "10569",
+   "genre": "奇幻冒險",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/fantasy/kimetsunoyaiba/list?title_no=10569",
+   "thumb": "thumbs/10569.jpg"
+  },
+  {
+   "title": "偷情計畫",
+   "no": "8598",
+   "genre": "愛情",
+   "likes": "13,777",
+   "href": "https://www.webtoons.com/zh-hant/romance/have-an-affair-with-me/list?title_no=8598",
+   "thumb": "thumbs/8598.jpg"
+  },
+  {
+   "title": "只想告訴你",
+   "no": "10576",
+   "genre": "愛情",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance/kiminitodoke/list?title_no=10576",
+   "thumb": "thumbs/10576.jpg"
+  },
+  {
+   "title": "銀魂",
+   "no": "11194",
+   "genre": "搞笑",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/comedy/gintama/list?title_no=11194",
+   "thumb": "thumbs/11194.jpg"
+  },
+  {
+   "title": "殺手青春",
+   "no": "10589",
+   "genre": "搞笑",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/comedy/killao/list?title_no=10589",
+   "thumb": "thumbs/10589.jpg"
+  }
+ ],
+ "completed_total": 1278,
+ "ongoing_total": 919
 }
