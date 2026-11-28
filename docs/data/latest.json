@@ -1,43 +1,91 @@
 {
- "generated_at": "2026-11-27T12:00:57+08:00",
- "today": "2026-11-27",
+ "generated_at": "2026-11-28T11:47:57+08:00",
+ "today": "2026-11-28",
  "health": {
   "ok": false,
-  "complete_count": 1281,
-  "ongoing_count": 917,
+  "complete_count": 1290,
+  "ongoing_count": 910,
   "notice_found": false,
   "warnings": [
    "公告 3799 解析不到作品清單"
   ],
-  "checked_at": "2026-11-27T12:00:57+08:00"
+  "checked_at": "2026-11-28T11:47:57+08:00"
  },
  "upcoming": null,
  "newly_completed": [
   {
-   "title": "大人的草莓牛奶",
-   "no": "9855",
+   "title": "迷妹的色色幻想成真了?",
+   "no": "9151",
    "genre": "大人系",
-   "likes": "13,492",
-   "href": "https://www.webtoons.com/zh-hant/romance-m/strawberry-milk/list?title_no=9855",
-   "thumb": "thumbs/9855.jpg"
+   "likes": "10,364",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/get-naughty-with-me/list?title_no=9151",
+   "thumb": "thumbs/9151.jpg"
   },
   {
-   "title": "聖女大人進退兩難",
-   "no": "10150",
+   "title": "[祕密短篇] 不能說的性癖",
+   "no": "9638",
    "genre": "大人系",
-   "likes": "1,209",
-   "href": "https://www.webtoons.com/zh-hant/romance-m/the-saintess-got-stuck-in-the-wall/list?title_no=10150",
-   "thumb": "thumbs/10150.jpg"
-  },
-  {
-   "title": "驀然回首",
-   "no": "11177",
-   "genre": "劇情",
    "likes": "賞我個讃",
-   "href": "https://www.webtoons.com/zh-hant/drama/lookback/list?title_no=11177",
-   "thumb": "thumbs/11177.jpg"
+   "href": "https://www.webtoons.com/zh-hant/romance-m/hiding-my-sexual-preferences/list?title_no=9638",
+   "thumb": "thumbs/9638.jpg"
+  },
+  {
+   "title": "老師，再來一次吧",
+   "no": "10960",
+   "genre": "大人系",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/lets-do-it-once-teacher/list?title_no=10960",
+   "thumb": "thumbs/10960.jpg"
+  },
+  {
+   "title": "草莓咬一口",
+   "no": "10149",
+   "genre": "大人系",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/please-eat-the-strawberry/list?title_no=10149",
+   "thumb": "thumbs/10149.jpg"
+  },
+  {
+   "title": "[純情男短篇] RE：作家大人怎能封筆！",
+   "no": "9640",
+   "genre": "大人系",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/re-you-cant-quit-writing-author/list?title_no=9640",
+   "thumb": "thumbs/9640.jpg"
+  },
+  {
+   "title": "[純情男短篇] 後輩的心機",
+   "no": "9637",
+   "genre": "大人系",
+   "likes": "賞我個讃",
+   "href": "https://www.webtoons.com/zh-hant/romance-m/strategic-junior/list?title_no=9637",
+   "thumb": "thumbs/9637.jpg"
+  },
+  {
+   "title": "黑手黨貴族",
+   "no": "7283",
+   "genre": "動作",
+   "likes": "70,624",
+   "href": "https://www.webtoons.com/zh-hant/action/the-heir/list?title_no=7283",
+   "thumb": "thumbs/7283.jpg"
+  },
+  {
+   "title": "送丈夫入地獄的方法",
+   "no": "8238",
+   "genre": "歐式宮廷",
+   "likes": "15,233",
+   "href": "https://www.webtoons.com/zh-hant/western-palace/how-to-send-your-husband-to-hell/list?title_no=8238",
+   "thumb": "thumbs/8238.jpg"
+  },
+  {
+   "title": "ONE POINT",
+   "no": "6656",
+   "genre": "校園",
+   "likes": "8,227",
+   "href": "https://www.webtoons.com/zh-hant/school/one-point/list?title_no=6656",
+   "thumb": "thumbs/6656.jpg"
   }
  ],
- "completed_total": 1281,
- "ongoing_total": 917
+ "completed_total": 1290,
+ "ongoing_total": 910
 }
